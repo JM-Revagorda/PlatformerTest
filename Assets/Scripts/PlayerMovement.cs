@@ -26,6 +26,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] GameObject point;
     [SerializeField] float radiusCollision;
 
+    [Header("Death Point")]
+    [SerializeField] GameObject deathPoint;
+
     [Header("Timers")]
     public float LastOnGroundTime { get; private set; }
 
@@ -40,6 +43,7 @@ public class PlayerMovement : MonoBehaviour
     bool canClimb;
     bool isClimbing;
     bool rightFlip;
+    bool isDead = false;
 
     //Acceleration varaibles
     private void Awake()
@@ -150,9 +154,20 @@ public class PlayerMovement : MonoBehaviour
         StopCoroutine(DashFunc());
     }
 
+    //Death Function
+    public void OnDeath() {
+        Instantiate(deathPoint, transform.position, Quaternion.identity);
+        Destroy(gameObject);
+    }
+
+    //Colliders
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("MovingPlatform"))
+        if (collision.gameObject.CompareTag("DeathPlanes"))
+        {
+            OnDeath();
+        }
+        else if (collision.gameObject.CompareTag("MovingPlatform"))
         {
             transform.parent = collision.transform;
         }

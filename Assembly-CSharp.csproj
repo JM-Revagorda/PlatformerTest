@@ -64,9 +64,11 @@
     <Compile Include="Assets\Scripts\DashPlatformScript.cs" />
     <Compile Include="Assets\Scripts\RoomBoundary.cs" />
     <Compile Include="Assets\Scripts\PlayerControls.cs" />
+    <Compile Include="Assets\Scripts\SpikeCollision.cs" />
     <Compile Include="Assets\Scripts\SpringBoxScript.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Respawn.cs" />
+    <Compile Include="Assets\Scripts\DeathStart.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
