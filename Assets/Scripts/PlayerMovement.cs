@@ -10,10 +10,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float reducedGravityScale;
     [SerializeField] float gravityScale = 1f;
     [SerializeField] float dashSpeed = 8f;
-    [SerializeField] float runAccelAmount;
-    [SerializeField] float runDeccelAmount;
-    [SerializeField] float maxSpeed;
-    [SerializeField] float lerpAmount = 0.01f;
+    [SerializeField] float decelRate;
 
     [Header("ClimbingMovement")]
     [SerializeField] GameObject wallPoint;
@@ -38,6 +35,7 @@ public class PlayerMovement : MonoBehaviour
     bool isGrounded;
     Vector2 directionMove;
     float origStamina;
+    float currentSpeed = 0;
     [HideInInspector] public bool canDash;
     [HideInInspector] public bool isDashing;
     bool canClimb;
@@ -90,10 +88,27 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!isDashing && !isClimbing)
         {
-            if (directionMove != Vector2.zero)
+            if (directionMove.x != 0f)
             {
-                rb.linearVelocity = new Vector2(directionMove.x * moveSpeed, rb.linearVelocityY);
+                //float targetSpeed = directionMove.x * moveSpeed;
+                //float rate = Mathf.Abs(directionMove.x) > 0.01f ? runAccelAmount : runDeccelAmount;
+                //currentSpeed = Mathf.MoveTowards(currentSpeed, targetSpeed, rate * Time.fixedDeltaTime * moveSpeed);
+                //rb.linearVelocity = new Vector2(currentSpeed, rb.linearVelocityY);
+                Vector2 targetVelocity = new Vector2(directionMove.x * moveSpeed, rb.linearVelocityY);
+                if (Mathf.Abs(rb.linearVelocityX) < moveSpeed || Mathf.Sign(directionMove.x) != Mathf.Sign(rb.linearVelocityX))
+                {
+                    if (isGrounded)
+                    {
+                        rb.linearDamping = 0;
+                    }
+                    rb.linearVelocityX = targetVelocity.x;
+                }
             }
+            else {
+                if (isGrounded) rb.linearDamping = decelRate;
+                else rb.linearDamping = 0;
+            }
+
             if (rb.linearVelocityY > 0 && !isGrounded && Keyboard.current.zKey.wasReleasedThisFrame)
             {
                 rb.gravityScale = reducedGravityScale;
@@ -108,6 +123,7 @@ public class PlayerMovement : MonoBehaviour
         if (isClimbing && stamina > 0)
         {
                 rb.gravityScale = 0;
+                rb.linearVelocityX = directionMove.x != 0? directionMove.x * moveSpeed : 0;
                 rb.linearVelocityY = directionMove.y * climbSpeed;
                 stamina -= 0.5f;
         }
@@ -143,6 +159,7 @@ public class PlayerMovement : MonoBehaviour
     IEnumerator DashFunc() {
         isDashing = true;
         int dashDirection = transform.localPosition.x > 0 ? 1 : -1;
+        rb.gravityScale = 0;
         if (directionMove == Vector2.zero) rb.linearVelocity =  new Vector2(dashDirection * dashSpeed, 0);
         else {
             rb.linearVelocity = new Vector2(directionMove.x * dashSpeed, directionMove.y * dashSpeed);
@@ -150,6 +167,7 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(0.3f);
         canDash = false;
         isDashing = false;
+        rb.gravityScale = 1;
         rb.linearVelocity = new Vector2(directionMove.x * moveSpeed, rb.linearVelocityY);
         StopCoroutine(DashFunc());
     }
