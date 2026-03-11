@@ -163,11 +163,7 @@ public class PlayerMovement : MonoBehaviour
     //Colliders
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("DeathPlanes"))
-        {
-            OnDeath();
-        }
-        else if (collision.gameObject.CompareTag("MovingPlatform"))
+        if (collision.gameObject.CompareTag("MovingPlatform"))
         {
             transform.parent = collision.transform;
         }

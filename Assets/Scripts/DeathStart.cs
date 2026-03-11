@@ -6,6 +6,6 @@ public class DeathStart : MonoBehaviour
     void Start()
     {
         GetComponent<ParticleSystem>().Play();
-        Destroy(gameObject, GetComponent<ParticleSystem>().startLifetime);
+        Destroy(gameObject, 0.5f);
     }
 }
