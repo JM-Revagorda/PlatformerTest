@@ -26,8 +26,9 @@ public class PlayerMovement : MonoBehaviour
     [Header("Death Point")]
     [SerializeField] GameObject deathPoint;
 
-    [Header("Timers")]
-    public float LastOnGroundTime { get; private set; }
+    [Header("Managers")]
+    [SerializeField] GameObject respawnManager;
+    RespawnManager rmControl;
 
     //Other Essentials
     Rigidbody2D rb;
@@ -56,6 +57,12 @@ public class PlayerMovement : MonoBehaviour
         isClimbing = false;
         origStamina = stamina;
         rightFlip = true;
+    }
+
+    private void Start()
+    {
+        respawnManager = GameObject.FindWithTag("RespawnManager");
+        rmControl = respawnManager.GetComponent<RespawnManager>();
     }
 
     //Movement Inputs
@@ -175,7 +182,7 @@ public class PlayerMovement : MonoBehaviour
     //Death Function
     public void OnDeath() {
         Instantiate(deathPoint, transform.position, Quaternion.identity);
-        Destroy(gameObject);
+        rmControl.runRespawnFunc(gameObject);
     }
 
     //Colliders

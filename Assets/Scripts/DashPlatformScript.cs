@@ -25,6 +25,14 @@ public class DashPlatformScript : MonoBehaviour
             StartCoroutine(Move());
         }
     }
+    private void FixedUpdate()
+    {
+        if(player == null)
+        {
+            player = GameObject.FindGameObjectWithTag("Player");
+            playerMove = player.GetComponent<PlayerMovement>();
+        }
+    }
 
     IEnumerator Move() {
         Vector2 targetPos = targetPoint.transform.position;

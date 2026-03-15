@@ -21,8 +21,10 @@ public class SpringBoxScript : MonoBehaviour
             rb.linearVelocityY = springStrength;
         }
     }
+
     void FixedUpdate()
     {
         playerEnters = Physics2D.OverlapCircle(collPoint.transform.position, collRadius, playerLayer);
+        other = GameObject.FindWithTag("Player");
     }
 }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - MovingPlatform
   - DeathPlanes
+  - RespawnManager
   layers:
   - Default
   - TransparentFX

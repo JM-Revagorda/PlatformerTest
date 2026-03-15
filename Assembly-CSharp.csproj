@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Respawn.cs" />
     <Compile Include="Assets\Scripts\DeathStart.cs" />
+    <Compile Include="Assets\Scripts\RespawnManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
