@@ -61,9 +61,11 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ShowBoxColliders.cs" />
     <Compile Include="Assets\Scripts\DashPlatformScript.cs" />
     <Compile Include="Assets\Scripts\RoomBoundary.cs" />
     <Compile Include="Assets\Scripts\PlayerControls.cs" />
+    <Compile Include="Assets\Scripts\SpawnPoint.cs" />
     <Compile Include="Assets\Scripts\SpikeCollision.cs" />
     <Compile Include="Assets\Scripts\SpringBoxScript.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
