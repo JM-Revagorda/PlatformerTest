@@ -8,6 +8,10 @@ public class RespawnManager : MonoBehaviour
     public GameObject playerInScene;
     public GameObject spawnPoint;
     public CinemachineBrain brain;
+    public GameObject currentRoom;
+    public bool PlayerDied = false;
+
+    int deathCounter = 0;
 
     private void Start()
     {
@@ -21,9 +25,19 @@ public class RespawnManager : MonoBehaviour
         this.spawnPoint = spawnPoint;
     }
 
-    public void runRespawnFunc(GameObject objectInScene) { playerInScene = objectInScene; StartCoroutine(respawnCharacter());}
+    public void runRespawnFunc(GameObject objectInScene) { 
+        playerInScene = objectInScene;
+        objectInScene.GetComponent<PlayerMovement>().enabled = false;
+        PlayerDied = true;
+        StartCoroutine(respawnCharacter());
+    }
+
     public IEnumerator respawnCharacter() {
         Destroy(playerInScene);
+        if (playerInScene == null) { 
+            deathCounter++;
+            Debug.Log("Deaths: " + deathCounter);
+        }
         yield return new WaitForSeconds(1f);
         playerInScene = Instantiate(player, spawnPoint.transform.position, Quaternion.identity);
         playerInScene.transform.position = spawnPoint.transform.position;
@@ -35,7 +49,7 @@ public class RespawnManager : MonoBehaviour
                 cmCamera.Follow = playerInScene.transform;
             }
         }
-
+        PlayerDied = false;
         StopCoroutine(respawnCharacter());
     }
 }

@@ -27,7 +27,7 @@ public class DashPlatformScript : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if(player == null)
+        if (player == null)
         {
             player = GameObject.FindGameObjectWithTag("Player");
             playerMove = player.GetComponent<PlayerMovement>();
