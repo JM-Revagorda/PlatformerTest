@@ -805,7 +805,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5.8
+  orthographic size: 6.8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -830,7 +830,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.4811382, y: 0.8061123, z: -10}
+  m_LocalPosition: {x: 37.41564, y: 9.300041, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2782,10 +2782,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2599927894463930776, guid: 6acc033a63676294388615cf13ad8d4d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.94255435
-      objectReference: {fileID: 0}
-    - target: {fileID: 2599927894463930776, guid: 6acc033a63676294388615cf13ad8d4d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.45
       objectReference: {fileID: 0}
@@ -2834,29 +2830,9 @@ PrefabInstance:
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5451867058951123557, guid: 6acc033a63676294388615cf13ad8d4d, type: 3}
-      propertyPath: dashSpeed
-      value: 10.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 5451867058951123557, guid: 6acc033a63676294388615cf13ad8d4d, type: 3}
-      propertyPath: decelRate
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5451867058951123557, guid: 6acc033a63676294388615cf13ad8d4d, type: 3}
-      propertyPath: deathPoint
-      value: 
-      objectReference: {fileID: 1217098069547686244, guid: 97905e9bfbbbb4f4190fbc0ee6954542, type: 3}
-    - target: {fileID: 5451867058951123557, guid: 6acc033a63676294388615cf13ad8d4d, type: 3}
-      propertyPath: jumpHeight
-      value: 6.57
-      objectReference: {fileID: 0}
-    - target: {fileID: 5451867058951123557, guid: 6acc033a63676294388615cf13ad8d4d, type: 3}
       propertyPath: respawnManager
       value: 
       objectReference: {fileID: 1659157872}
-    - target: {fileID: 6175898188177741220, guid: 6acc033a63676294388615cf13ad8d4d, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.55
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
