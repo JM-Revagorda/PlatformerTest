@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: 21f0125ed9ab8e145aa5b6bca57548a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7088409939728880398
+    second: more-beams-shadow_0
+  - first:
+      213: -799692238917012496
+    second: more-beams-shadow_1
+  - first:
+      213: -1582662342120536911
+    second: more-beams-shadow_2
+  - first:
+      213: -5544211540259599267
+    second: more-beams-shadow_3
+  - first:
+      213: -5075118372792541503
+    second: more-beams-shadow_4
+  - first:
+      213: -1178652182323274927
+    second: more-beams-shadow_5
+  - first:
+      213: -4666331931142054575
+    second: more-beams-shadow_6
+  - first:
+      213: 4686360893426549626
+    second: more-beams-shadow_7
+  - first:
+      213: 3277914044344965719
+    second: more-beams-shadow_8
+  - first:
+      213: 784760208044765887
+    second: more-beams-shadow_9
+  - first:
+      213: -5551623114673357536
+    second: more-beams-shadow_10
+  - first:
+      213: 8272763335092300041
+    second: more-beams-shadow_11
+  - first:
+      213: 2596585678466214375
+    second: more-beams-shadow_12
+  - first:
+      213: -4026457188403242581
+    second: more-beams-shadow_13
+  - first:
+      213: -6421382440704979130
+    second: more-beams-shadow_14
+  - first:
+      213: -6733374722568337672
+    second: more-beams-shadow_15
+  - first:
+      213: 3888743182739399053
+    second: more-beams-shadow_16
+  - first:
+      213: 553367505070430342
+    second: more-beams-shadow_17
+  - first:
+      213: -3309134926779097828
+    second: more-beams-shadow_18
+  - first:
+      213: 4263061050935767453
+    second: more-beams-shadow_19
+  - first:
+      213: 6967510026401271526
+    second: more-beams-shadow_20
+  - first:
+      213: -7564515021784645312
+    second: more-beams-shadow_21
+  - first:
+      213: -1909249447270248542
+    second: more-beams-shadow_22
+  - first:
+      213: 822779893173764882
+    second: more-beams-shadow_23
+  - first:
+      213: 3365660227109486765
+    second: more-beams-shadow_24
+  - first:
+      213: 480948824952521594
+    second: more-beams-shadow_25
+  - first:
+      213: 3617420553924261232
+    second: more-beams-shadow_26
+  - first:
+      213: 8238047410880942379
+    second: more-beams-shadow_27
+  - first:
+      213: 8869487163297704086
+    second: more-beams-shadow_28
+  - first:
+      213: 8056605827833286922
+    second: more-beams-shadow_29
+  - first:
+      213: -8501741013014731216
+    second: more-beams-shadow_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: more-beams-shadow_0
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 804
+        width: 75
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0353efb8471f5260800000000000000
+      internalID: 7088409939728880398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_1
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 804
+        width: 101
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3f6b9452ce6e4f0800000000000000
+      internalID: -799692238917012496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_2
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 804
+        width: 107
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b484823cf0490ae0800000000000000
+      internalID: -1582662342120536911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_3
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 804
+        width: 94
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c84378af00f03b0800000000000000
+      internalID: -5544211540259599267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_4
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 828
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce54a4aabe8199b0800000000000000
+      internalID: -5075118372792541503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_5
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 804
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bd1eeb51694afe0800000000000000
+      internalID: -1178652182323274927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 700
+        width: 245
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d1738f4dbdd3fb0800000000000000
+      internalID: -4666331931142054575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_7
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 438
+        width: 260
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73c8f5376c490140800000000000000
+      internalID: 4686360893426549626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_8
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 750
+        width: 75
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a1279c47d7d7d20800000000000000
+      internalID: 3277914044344965719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_9
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 752
+        width: 101
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2be5a504704ea00800000000000000
+      internalID: 784760208044765887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_10
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 774
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02dfb03e03ca4f2b0800000000000000
+      internalID: -5551623114673357536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_11
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 753
+        width: 107
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9096d0b1c62cec270800000000000000
+      internalID: 8272763335092300041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_12
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 754
+        width: 94
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e968d1daece80420800000000000000
+      internalID: 2596585678466214375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_13
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 749
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba918ed25862f18c0800000000000000
+      internalID: -4026457188403242581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_14
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 645
+        width: 405
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f49de21baa2e6a0800000000000000
+      internalID: -6421382440704979130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_15
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 70
+        width: 38
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f648b16d5f3e82a0800000000000000
+      internalID: -6733374722568337672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_16
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 385
+        width: 139
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8167ed325797f530800000000000000
+      internalID: 3888743182739399053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_17
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 571
+        width: 405
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68897f160d4fda700800000000000000
+      internalID: 553367505070430342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_18
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 407
+        width: 131
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d5e7f01579312d0800000000000000
+      internalID: -3309134926779097828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_19
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 407
+        width: 131
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9174dc607f692b30800000000000000
+      internalID: 4263061050935767453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 30
+        width: 125
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eece9c147191b060800000000000000
+      internalID: 6967510026401271526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_21
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 303
+        width: 127
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0418b6c8aa1750790800000000000000
+      internalID: -7564515021784645312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_22
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 300
+        width: 137
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af88db4ebbf085e0800000000000000
+      internalID: -1909249447270248542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_23
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 293
+        width: 74
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213c4fc14f91b6b00800000000000000
+      internalID: 822779893173764882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_24
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 291
+        width: 75
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0858ff42a35be20800000000000000
+      internalID: 3365660227109486765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_25
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 281
+        width: 79
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73cf6a786caca600800000000000000
+      internalID: 480948824952521594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_26
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 141
+        width: 402
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0753adfe3d8a33230800000000000000
+      internalID: 3617420553924261232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_27
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 160
+        width: 74
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b219260297c635270800000000000000
+      internalID: 8238047410880942379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_28
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 160
+        width: 75
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6982f3c159fb61b70800000000000000
+      internalID: 8869487163297704086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_29
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 159
+        width: 79
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01585f8050decf60800000000000000
+      internalID: 8056605827833286922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-shadow_30
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 45
+        width: 405
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03623e2c79fb30a80800000000000000
+      internalID: -8501741013014731216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      more-beams-shadow_0: 7088409939728880398
+      more-beams-shadow_1: -799692238917012496
+      more-beams-shadow_10: -5551623114673357536
+      more-beams-shadow_11: 8272763335092300041
+      more-beams-shadow_12: 2596585678466214375
+      more-beams-shadow_13: -4026457188403242581
+      more-beams-shadow_14: -6421382440704979130
+      more-beams-shadow_15: -6733374722568337672
+      more-beams-shadow_16: 3888743182739399053
+      more-beams-shadow_17: 553367505070430342
+      more-beams-shadow_18: -3309134926779097828
+      more-beams-shadow_19: 4263061050935767453
+      more-beams-shadow_2: -1582662342120536911
+      more-beams-shadow_20: 6967510026401271526
+      more-beams-shadow_21: -7564515021784645312
+      more-beams-shadow_22: -1909249447270248542
+      more-beams-shadow_23: 822779893173764882
+      more-beams-shadow_24: 3365660227109486765
+      more-beams-shadow_25: 480948824952521594
+      more-beams-shadow_26: 3617420553924261232
+      more-beams-shadow_27: 8238047410880942379
+      more-beams-shadow_28: 8869487163297704086
+      more-beams-shadow_29: 8056605827833286922
+      more-beams-shadow_3: -5544211540259599267
+      more-beams-shadow_30: -8501741013014731216
+      more-beams-shadow_4: -5075118372792541503
+      more-beams-shadow_5: -1178652182323274927
+      more-beams-shadow_6: -4666331931142054575
+      more-beams-shadow_7: 4686360893426549626
+      more-beams-shadow_8: 3277914044344965719
+      more-beams-shadow_9: 784760208044765887
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

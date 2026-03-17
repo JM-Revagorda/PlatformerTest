@@ -1,31 +1,40 @@
 fileFormatVersion: 2
-guid: 32a5f9f395cf9d948a365d940226603d
+guid: eb748ce0c1618184ab41e8b2c8567c63
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6150384008709971305
-    second: JUMP_0
+      213: -2943257248203406207
+    second: more-beamsblue_0
   - first:
-      213: -4959259091351612375
-    second: JUMP_1
+      213: -8119260338756754588
+    second: more-beamsblue_1
   - first:
-      213: 1131083306628328740
-    second: JUMP_2
+      213: -5667189427343617963
+    second: more-beamsblue_2
   - first:
-      213: -1959255609046229392
-    second: JUMP_3
+      213: -991733796921186578
+    second: more-beamsblue_3
   - first:
-      213: 5863146554602884080
-    second: JUMP_4
+      213: -8468260139887039313
+    second: more-beamsblue_4
   - first:
-      213: 1661297097616155045
-    second: JUMP_5
+      213: 9093721642887639620
+    second: more-beamsblue_5
   - first:
-      213: 1810671005484508929
-    second: JUMP_6
+      213: 7855511576703300534
+    second: more-beamsblue_6
   - first:
-      213: -4290912688688556156
-    second: JUMP_7
+      213: -2640060185393324925
+    second: more-beamsblue_7
+  - first:
+      213: -1279600380044765585
+    second: more-beamsblue_8
+  - first:
+      213: 3070263570695259730
+    second: more-beamsblue_9
+  - first:
+      213: -3051853691609076160
+    second: more-beamsblue_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -121,13 +130,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: JUMP_0
+      name: more-beamsblue_0
       rect:
         serializedVersion: 2
-        x: 143
-        y: 143
-        width: 86
-        height: 106
+        x: 54
+        y: 700
+        width: 250
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7926998845275aaa0800000000000000
-      internalID: -6150384008709971305
+      spriteID: 1840e3670237727d0800000000000000
+      internalID: -2943257248203406207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JUMP_1
+      name: more-beamsblue_1
       rect:
         serializedVersion: 2
-        x: 232
-        y: 174
-        width: 78
-        height: 119
+        x: 420
+        y: 438
+        width: 306
+        height: 350
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +167,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9245cd6b12c2d2bb0800000000000000
-      internalID: -4959259091351612375
+      spriteID: 4636c755db7925f80800000000000000
+      internalID: -8119260338756754588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JUMP_2
+      name: more-beamsblue_2
       rect:
         serializedVersion: 2
-        x: 313
-        y: 221
-        width: 73
-        height: 115
+        x: 783
+        y: 678
+        width: 414
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,20 +189,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 42da4fe464a62bf00800000000000000
-      internalID: 1131083306628328740
+      spriteID: 550955ced391a51b0800000000000000
+      internalID: -5667189427343617963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JUMP_3
+      name: more-beamsblue_3
       rect:
         serializedVersion: 2
-        x: 394
-        y: 245
-        width: 73
-        height: 113
+        x: 1200
+        y: 759
+        width: 16
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +211,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 07e9b9677635fc4e0800000000000000
-      internalID: -1959255609046229392
+      spriteID: ee663cabd57ac32f0800000000000000
+      internalID: -991733796921186578
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JUMP_4
+      name: more-beamsblue_4
       rect:
         serializedVersion: 2
-        x: 483
-        y: 198
-        width: 81
-        height: 119
+        x: 74
+        y: 70
+        width: 38
+        height: 507
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +233,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0fb09252ab41e5150800000000000000
-      internalID: 5863146554602884080
+      spriteID: facee600542ba7a80800000000000000
+      internalID: -8468260139887039313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JUMP_5
+      name: more-beamsblue_5
       rect:
         serializedVersion: 2
-        x: 561
-        y: 151
-        width: 87
-        height: 119
+        x: 238
+        y: 385
+        width: 139
+        height: 209
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,20 +255,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a16cc988ec1e0710800000000000000
-      internalID: 1661297097616155045
+      spriteID: 442799257a3633e70800000000000000
+      internalID: 9093721642887639620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JUMP_6
+      name: more-beamsblue_6
       rect:
         serializedVersion: 2
-        x: 51
-        y: 142
-        width: 88
-        height: 85
+        x: 780
+        y: 521
+        width: 420
+        height: 86
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,20 +277,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 107e007afabc02910800000000000000
-      internalID: 1810671005484508929
+      spriteID: 6b37e52a822640d60800000000000000
+      internalID: 7855511576703300534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JUMP_7
+      name: more-beamsblue_7
       rect:
         serializedVersion: 2
-        x: 645
-        y: 142
-        width: 91
-        height: 94
+        x: 786
+        y: 407
+        width: 131
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,8 +299,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4879084d4ad9374c0800000000000000
-      internalID: -4290912688688556156
+      spriteID: 38c9affbf3f9c5bd0800000000000000
+      internalID: -2640060185393324925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beamsblue_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 30
+        width: 125
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f661af4eb32fd3ee0800000000000000
+      internalID: -1279600380044765585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beamsblue_9
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 313
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2560d1a5374cb9a20800000000000000
+      internalID: 3070263570695259730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beamsblue_10
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 40
+        width: 588
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e2d25ac33a5a5d0800000000000000
+      internalID: -3051853691609076160
       vertices: []
       indices: 
       edges: []
@@ -310,14 +385,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      JUMP_0: -6150384008709971305
-      JUMP_1: -4959259091351612375
-      JUMP_2: 1131083306628328740
-      JUMP_3: -1959255609046229392
-      JUMP_4: 5863146554602884080
-      JUMP_5: 1661297097616155045
-      JUMP_6: 1810671005484508929
-      JUMP_7: -4290912688688556156
+      more-beamsblue_0: -2943257248203406207
+      more-beamsblue_1: -8119260338756754588
+      more-beamsblue_10: -3051853691609076160
+      more-beamsblue_2: -5667189427343617963
+      more-beamsblue_3: -991733796921186578
+      more-beamsblue_4: -8468260139887039313
+      more-beamsblue_5: 9093721642887639620
+      more-beamsblue_6: 7855511576703300534
+      more-beamsblue_7: -2640060185393324925
+      more-beamsblue_8: -1279600380044765585
+      more-beamsblue_9: 3070263570695259730
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
