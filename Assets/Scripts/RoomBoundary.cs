@@ -23,7 +23,6 @@ public class RoomBoundary : MonoBehaviour
             player = collision.gameObject;
             respawnManager.GetComponent<RespawnManager>().setNewSpawn(spawnPoint);
             roomCamera.Priority = 10;
-            Debug.Log("Room Camera: " + roomCamera + "   Priority: " + roomCamera.Priority);
             cam = brain.ActiveVirtualCamera;
             if (cam is Component component)
             {

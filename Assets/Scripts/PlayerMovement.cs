@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float gravityScale = 1f;
     [SerializeField] float dashSpeed = 8f;
     [SerializeField] float decelRate;
+    [SerializeField] float coyoteThreshold;
 
     [Header("ClimbingMovement")]
     [SerializeField] GameObject wallPoint;
@@ -43,6 +44,7 @@ public class PlayerMovement : MonoBehaviour
     bool isClimbing;
     bool rightFlip;
     bool isDead = false;
+    float _timeLeftGrounded = 0;
 
     //Acceleration varaibles
     private void Awake()
@@ -57,6 +59,7 @@ public class PlayerMovement : MonoBehaviour
         isClimbing = false;
         origStamina = stamina;
         rightFlip = true;
+        _timeLeftGrounded = 0;
     }
 
     private void Start()
@@ -77,7 +80,7 @@ public class PlayerMovement : MonoBehaviour
 
     //Jumping Movement
     public void OnJump(InputAction.CallbackContext context) {
-        if (isGrounded && !isDashing) {
+        if (isGrounded && !isDashing || (_timeLeftGrounded + coyoteThreshold > Time.time && rb.linearVelocityY < 0)) {
             rb.linearVelocityY = jumpHeight;
         }
         if (isClimbing) {
@@ -142,13 +145,20 @@ public class PlayerMovement : MonoBehaviour
         //Sprite and Wall Collision Flipping
         if (directionMove.x > 0 && !rightFlip) Flip();
         else if (directionMove.x < 0 && rightFlip) Flip();
+
+        //'Coyote' Timing
+        if (!isGrounded && _timeLeftGrounded <= coyoteThreshold) { _timeLeftGrounded += Time.time;}
     }
 
     private void FixedUpdate()
     {
         isGrounded = Physics2D.OverlapCircle(point.transform.position, radiusCollision, groundLayer);
         canClimb = Physics2D.OverlapCircle(wallPoint.transform.position, 0.1f, groundLayer);
-        if (isGrounded) { canDash = true; stamina = origStamina; }
+        if (isGrounded) { 
+            canDash = true; 
+            stamina = origStamina;
+            _timeLeftGrounded = 0;
+        }
     }
 
     void Flip() {
