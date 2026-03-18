@@ -27,6 +27,7 @@ public class RespawnManager : MonoBehaviour
 
     public void runRespawnFunc(GameObject objectInScene) { 
         playerInScene = objectInScene;
+        objectInScene.GetComponent<PlayerMovement>().animator.SetBool("isDead", true);
         objectInScene.GetComponent<PlayerMovement>().enabled = false;
         PlayerDied = true;
         StartCoroutine(respawnCharacter());

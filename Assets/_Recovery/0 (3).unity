@@ -2587,7 +2587,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5418989768142462583, guid: c919e5c94e67d58438fda2d32a944db0, type: 3}
       propertyPath: m_Size.y
-      value: 30.619427
+      value: 28.723011
       objectReference: {fileID: 0}
     - target: {fileID: 5418989768142462583, guid: c919e5c94e67d58438fda2d32a944db0, type: 3}
       propertyPath: m_Offset.x
@@ -2595,7 +2595,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5418989768142462583, guid: c919e5c94e67d58438fda2d32a944db0, type: 3}
       propertyPath: m_Offset.y
-      value: 8.802229
+      value: 7.8540206
       objectReference: {fileID: 0}
     - target: {fileID: 8164253707127404092, guid: c919e5c94e67d58438fda2d32a944db0, type: 3}
       propertyPath: m_Name
@@ -2884,19 +2884,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1148500517163348106, guid: 6acc033a63676294388615cf13ad8d4d, type: 3}
       propertyPath: m_Size.x
-      value: 0.5189166
+      value: 0.6149616
       objectReference: {fileID: 0}
     - target: {fileID: 1148500517163348106, guid: 6acc033a63676294388615cf13ad8d4d, type: 3}
       propertyPath: m_Size.y
-      value: 1.187516
+      value: 1.1442004
       objectReference: {fileID: 0}
     - target: {fileID: 1148500517163348106, guid: 6acc033a63676294388615cf13ad8d4d, type: 3}
       propertyPath: m_Offset.x
-      value: 0.012434244
+      value: -0.025214195
       objectReference: {fileID: 0}
     - target: {fileID: 1148500517163348106, guid: 6acc033a63676294388615cf13ad8d4d, type: 3}
       propertyPath: m_Offset.y
-      value: -0.03621459
+      value: -0.000000059604645
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148500517163348106, guid: 6acc033a63676294388615cf13ad8d4d, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148500517163348106, guid: 6acc033a63676294388615cf13ad8d4d, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.26
       objectReference: {fileID: 0}
     - target: {fileID: 2599927894463930776, guid: 6acc033a63676294388615cf13ad8d4d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2946,30 +2954,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 815424164945274260, guid: 016c32258bc5f9d448e05265097fe4b2, type: 3}
-    - target: {fileID: 3981830131143968362, guid: 6acc033a63676294388615cf13ad8d4d, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3981830131143968362, guid: 6acc033a63676294388615cf13ad8d4d, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3981830131143968362, guid: 6acc033a63676294388615cf13ad8d4d, type: 3}
-      propertyPath: m_Color.r
-      value: 1
+    - target: {fileID: 5451867058951123557, guid: 6acc033a63676294388615cf13ad8d4d, type: 3}
+      propertyPath: stamina
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5451867058951123557, guid: 6acc033a63676294388615cf13ad8d4d, type: 3}
       propertyPath: respawnManager
       value: 
       objectReference: {fileID: 1659157872}
-    - target: {fileID: 6208554176366593589, guid: 6acc033a63676294388615cf13ad8d4d, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: c746e0cc0904faa4ab19e7b08e8e3340, type: 2}
-    - target: {fileID: 8873417615739170785, guid: 6acc033a63676294388615cf13ad8d4d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.414
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

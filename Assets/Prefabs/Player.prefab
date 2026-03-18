@@ -88,8 +88,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 0.07008721, g: 0.65008813, b: 0.990566, a: 1}
+  m_Sprite: {fileID: 815424164945274260, guid: 016c32258bc5f9d448e05265097fe4b2, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -154,6 +154,8 @@ MonoBehaviour:
   radiusCollision: 0.1
   deathPoint: {fileID: 1217098069547686244, guid: 97905e9bfbbbb4f4190fbc0ee6954542, type: 3}
   respawnManager: {fileID: 0}
+  dashpPoint: {fileID: 2335460801110140178, guid: ab12ced14dea854489589f52e3e3664f, type: 3}
+  animator: {fileID: 0}
   canDash: 0
   isDashing: 0
 --- !u!114 &1131281897151121283
@@ -260,7 +262,7 @@ Animator:
   m_GameObject: {fileID: 3644357643724729024}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e9d17aab1869609418087b770ad9e7b9, type: 2}
+  m_Controller: {fileID: 9100000, guid: c746e0cc0904faa4ab19e7b08e8e3340, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -306,17 +308,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.010322094, y: 0.00000011920929}
+  m_Offset: {x: 0.012434244, y: -0.03621459}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 2}
+    oldSize: {x: 0.85, y: 1.26}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.8830185, y: 1.8393853}
+  m_Size: {x: 0.5189166, y: 1.187516}
   m_EdgeRadius: 0
 --- !u!1 &5242271792905909580
 GameObject:
