@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9017435047928134578}
   - component: {fileID: 5418989768142462583}
+  - component: {fileID: 4908773612545180067}
   m_Layer: 0
   m_Name: RoomBox
   m_TagString: Untagged
@@ -78,3 +79,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 24.977455, y: 13.91239}
   m_EdgeRadius: 0
+--- !u!114 &4908773612545180067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8164253707127404092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f6a1b96c6fe0564982e6ca4d648c538, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RoomBoundary
+  respawnManager: {fileID: 0}
+  spawnPoint: {fileID: 0}
+  roomCamera: {fileID: 0}
+  otherRoomCamera: {fileID: 0}
+  brain: {fileID: 0}
