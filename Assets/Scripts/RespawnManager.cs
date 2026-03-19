@@ -9,6 +9,7 @@ public class RespawnManager : MonoBehaviour
     public GameObject spawnPoint;
     public CinemachineBrain brain;
     public GameObject currentRoom;
+    GameObject deathParticles;
     public bool PlayerDied = false;
 
     int deathCounter = 0;
@@ -30,16 +31,19 @@ public class RespawnManager : MonoBehaviour
         objectInScene.GetComponent<PlayerMovement>().animator.SetBool("isDead", true);
         objectInScene.GetComponent<PlayerMovement>().enabled = false;
         PlayerDied = true;
+        deathParticles = objectInScene.GetComponent<PlayerMovement>().deathParticles;
         StartCoroutine(respawnCharacter());
     }
 
     public IEnumerator respawnCharacter() {
-        Destroy(playerInScene);
+        if(playerInScene != null)
+            Destroy(playerInScene);
         if (playerInScene == null) { 
             deathCounter++;
             Debug.Log("Deaths: " + deathCounter);
         }
         yield return new WaitForSeconds(1f);
+        Destroy(deathParticles);
         playerInScene = Instantiate(player, spawnPoint.transform.position, Quaternion.identity);
         playerInScene.transform.position = spawnPoint.transform.position;
 

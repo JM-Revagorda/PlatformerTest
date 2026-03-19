@@ -26,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Death Point")]
     [SerializeField] GameObject deathPoint;
+    [HideInInspector] public GameObject deathParticles;
 
     [Header("Managers")]
     [SerializeField] GameObject respawnManager;
@@ -33,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Other Points")]
     [SerializeField] GameObject dashpPoint;
+    GameObject dashPointObject;
 
     //Other Essentials
     Rigidbody2D rb;
@@ -177,7 +179,8 @@ public class PlayerMovement : MonoBehaviour
 
         //'Coyote' Timing
         if (!isGrounded && _timeLeftGrounded <= coyoteThreshold) { _timeLeftGrounded += Time.time;}
-        
+        animator.SetFloat("VerticalMove", rb.linearVelocityY);
+        //Debug.Log(animator.GetFloat("VerticalMove"));
     }
 
     private void FixedUpdate()
@@ -189,7 +192,8 @@ public class PlayerMovement : MonoBehaviour
             stamina = origStamina;
             _timeLeftGrounded = 0;
         }
-        Debug.Log(canClimb);
+        animator.SetBool("isGrounded", isGrounded);
+        //Debug.Log(canClimb);
     }
 
     void Flip() {
@@ -202,13 +206,12 @@ public class PlayerMovement : MonoBehaviour
             rightFlip = true;
         }
         transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y) ;
-        wallPoint.transform.localPosition = new Vector3(wallPoint.transform.localPosition.x * -1, wallPoint.transform.localPosition.y);
     }
 
     //Dashing Function
     IEnumerator DashFunc() {
         isDashing = true;
-        Instantiate(dashpPoint, transform.position, Quaternion.identity);
+        dashPointObject = Instantiate(dashpPoint, transform.position, Quaternion.identity);
         //ParticleEmit(transform.position, 1);
         int dashDirection = transform.localScale.x > 0 ? 1 : -1;
         rb.gravityScale = 0;
@@ -216,7 +219,9 @@ public class PlayerMovement : MonoBehaviour
         else {
             rb.linearVelocity = new Vector2(directionMove.x * dashSpeed, directionMove.y * dashSpeed);
         }
+        if (isGrounded && directionMove.y < 0) { Destroy(dashPointObject); StopCoroutine(DashFunc()); }
         yield return new WaitForSeconds(0.3f);
+        Destroy(dashPointObject);
         canDash = false;
         isDashing = false;
         rb.gravityScale = 1;
@@ -226,7 +231,7 @@ public class PlayerMovement : MonoBehaviour
 
     //Death Function
     public void OnDeath() {
-        Instantiate(deathPoint, transform.position, Quaternion.identity);
+        deathParticles = Instantiate(deathPoint, transform.position, Quaternion.identity);
         rmControl.runRespawnFunc(gameObject);
     }
 
