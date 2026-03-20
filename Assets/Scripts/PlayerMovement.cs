@@ -92,12 +92,14 @@ public class PlayerMovement : MonoBehaviour
     //Jumping Movement
     #region JUMP INPUT
     public void OnJump(InputAction.CallbackContext context) {
+        int reverser = -1;
         if (isGrounded && !isDashing || (_timeLeftGrounded + coyoteThreshold > Time.time && rb.linearVelocityY < 0)) {
             rb.linearVelocityY = jumpHeight + platformVelocity.y ;
         }
         if (isClimbing) {
             isClimbing = false;
-            rb.linearVelocity = new Vector2(-directionMove.x * moveSpeed, jumpHeight);
+            if (!rightFlip) reverser = 1;
+            rb.linearVelocity = new Vector2((reverser * transform.right.x) * moveSpeed, jumpHeight);
         }
     }
     #endregion
@@ -122,19 +124,27 @@ public class PlayerMovement : MonoBehaviour
         {
             if (directionMove.x != 0f)
             {
-                Vector2 targetVelocity = new Vector2(directionMove.x * moveSpeed + platformVelocity.x, rb.linearVelocityY + platformVelocity.y);
-                if (isGrounded) animator.SetBool("isRunning", true);
-                else animator.SetBool("isRunning", false);
-
-                if (Mathf.Abs(rb.linearVelocityX) < moveSpeed || Mathf.Sign(directionMove.x) != Mathf.Sign(rb.linearVelocityX))
+                if (canClimb && !isGrounded)
                 {
-                    if (isGrounded)
+                    directionMove.x = 0f;
+                    //rb.linearVelocityY = 0.70f;
+                }
+                else
+                {
+                    Vector2 targetVelocity = new Vector2(directionMove.x * moveSpeed + platformVelocity.x, rb.linearVelocityY + platformVelocity.y);
+                    if (isGrounded) animator.SetBool("isRunning", true);
+                    else animator.SetBool("isRunning", false);
+
+                    if (Mathf.Abs(rb.linearVelocityX) < moveSpeed || Mathf.Sign(directionMove.x) != Mathf.Sign(rb.linearVelocityX))
                     {
-                        rb.linearDamping = 0;
+                        if (isGrounded)
+                        {
+                            rb.linearDamping = 0;
+                        }
+
+                        rb.linearVelocity = targetVelocity;
+                        //rb.linearVelocityX = targetVelocity.x;
                     }
-                    
-                    rb.linearVelocity = targetVelocity;
-                    //rb.linearVelocityX = targetVelocity.x;
                 }
             }
             else {
@@ -156,10 +166,10 @@ public class PlayerMovement : MonoBehaviour
         else isClimbing = false;
 
         //Climbing Logic
-        if (isClimbing && stamina > 0)
+        if (isClimbing && stamina > 0 && !Keyboard.current.zKey.wasPressedThisFrame)
         {
                 rb.gravityScale = 0;
-                rb.linearVelocityX = directionMove.x != 0? directionMove.x * moveSpeed : 0;
+                //rb.linearVelocityX = directionMove.x != 0? directionMove.x * moveSpeed : 0;
                 rb.linearVelocityY = directionMove.y * climbSpeed;
                 stamina -= 0.5f;
         }
@@ -174,8 +184,11 @@ public class PlayerMovement : MonoBehaviour
         else animator.speed = 1f;
 
         //Sprite and Wall Collision Flipping
-        if (directionMove.x > 0 && !rightFlip) Flip();
-        else if (directionMove.x < 0 && rightFlip) Flip();
+        if (!isClimbing)
+        {
+            if (((directionMove.x > 0) || (!isGrounded && rb.linearVelocityX > 0)) && !rightFlip) Flip();
+            else if (((directionMove.x < 0) || (!isGrounded && rb.linearVelocityX < 0)) && rightFlip) Flip();
+        }
 
         //'Coyote' Timing
         if (!isGrounded && _timeLeftGrounded <= coyoteThreshold) { _timeLeftGrounded += Time.time;}
@@ -186,7 +199,7 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         isGrounded = Physics2D.OverlapCircle(point.transform.position, radiusCollision, groundLayer);
-        canClimb = Physics2D.OverlapCircle(wallPoint.transform.position, 0.3f, groundLayer);
+        canClimb = Physics2D.OverlapCircle(wallPoint.transform.position, 0.1f, groundLayer);
         if (isGrounded) { 
             canDash = true; 
             stamina = origStamina;
