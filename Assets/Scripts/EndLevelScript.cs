@@ -8,7 +8,7 @@ public class EndLevelScript : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject.CompareTag("Player"))
-            StartCoroutine(LoadNextScene(SceneName));
+            StartCoroutine(LoadNextScene(SceneName));   //Starts the Coroutine if Player enters
     }
 
     IEnumerator LoadNextScene(string sceneName) {

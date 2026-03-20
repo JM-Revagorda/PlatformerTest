@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    //Variables for Player Movement
     [Header("Player Movement")]
     [SerializeField] float moveSpeed;
     [SerializeField] float jumpHeight;
@@ -13,25 +14,29 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float decelRate;
     [SerializeField] float coyoteThreshold;
 
+    //Variables for Player Climbing
     [Header("ClimbingMovement")]
     [SerializeField] GameObject wallPoint;
     [SerializeField] float climbSpeed;
     [SerializeField] float stamina;
 
-
+    //Variables and GameObject for Player Collision
     [Header("Collision Checker")]
     [SerializeField] LayerMask groundLayer;
     [SerializeField] GameObject point;
     [SerializeField] float radiusCollision;
 
+    //Variables and GameObject for Handling Player's Death
     [Header("Death Point")]
     [SerializeField] GameObject deathPoint;
     [HideInInspector] public GameObject deathParticles;
 
+    //GameObject for Handling Player's Respawn
     [Header("Managers")]
     [SerializeField] GameObject respawnManager;
     RespawnManager rmControl;
 
+    //GameObject for Dash Particles
     [Header("Other Points")]
     [SerializeField] GameObject dashpPoint;
     GameObject dashPointObject;
@@ -55,10 +60,23 @@ public class PlayerMovement : MonoBehaviour
     float _timeLeftGrounded = 0;
     Vector2 platformVelocity = Vector2.zero;
 
-    //Acceleration varaibles
+    /*
+        Notes on All the things above:
+        [HideInInspector]   - Prevents public variables from being seen in the Inspector. Works when you simply want to have it only accessible by
+                            other Scripts
+        [SerializeField]    - Allows any variable regardless of security to be seen in the Inspector (shouldnt theoretically work in public variables 'cos their in 'public', duh!)
+        Vector2             - Type of Data that reads in Cartesian coordinates (e.g. (0, 1), (5, -4))
+        float               - still the same old float data as the one in Java where you use 'f' or 'F' to differentiate a float from a double
+        ParticleSystem      - Wrapper Class for the ParticleSystem Component
+        PlayerControls      - Wrapper Class for the generated PlayerControls Script, made using the magical powers of Input System (keep it up baby!)
+        GameObject          - GameObject....
+        Rigidbody           - Wrapper class for the Rigidbody Component
+     */
+
+    //Happens at the start of the Scene
     private void Awake()
     {
-        if (rb == null) rb = GetComponent<Rigidbody2D>();
+        if (rb == null) rb = GetComponent<Rigidbody2D>(); //GetComponent<*something*>() = Gets the component of the gameobject. In this case, it gets the RigidBody 2D Component and stores it in 'rb'
         if (animator == null) animator = GetComponent<Animator>();
         isGrounded = false;
         playerControls = new PlayerControls();
@@ -73,6 +91,7 @@ public class PlayerMovement : MonoBehaviour
         dashParticles = GetComponent<ParticleSystem>();
     }
 
+    //Happens when the object is instantiated with this script!
     private void Start()
     {
         respawnManager = GameObject.FindWithTag("RespawnManager");
@@ -85,6 +104,7 @@ public class PlayerMovement : MonoBehaviour
     //Directional Movement
     public void OnMove(InputAction.CallbackContext context)
     {
+        //Gets All the Directions based on Arrow Keys
         directionMove = context.ReadValue<Vector2>();
     }
     #endregion
@@ -93,9 +113,12 @@ public class PlayerMovement : MonoBehaviour
     #region JUMP INPUT
     public void OnJump(InputAction.CallbackContext context) {
         int reverser = -1;
+
+        //Regular Jumping Logic
         if (isGrounded && !isDashing || (_timeLeftGrounded + coyoteThreshold > Time.time && rb.linearVelocityY < 0)) {
             rb.linearVelocityY = jumpHeight + platformVelocity.y ;
         }
+        //WallJump, When you Jump while holding 'C'
         if (isClimbing) {
             isClimbing = false;
             if (!rightFlip) reverser = 1;
@@ -111,19 +134,27 @@ public class PlayerMovement : MonoBehaviour
     }
     #endregion
 
+    /* *funcName*(InputAction.CallbackContext context)
+            - Way to call functions when specific keys are being pressed
+            - You add these functions in the 'Player Input' Component in the Inspector, after changing its mode to 'Send Messages' and its Input System to any specified Input System
+     */
+
     private void Update()
     {
         #region Velocity Calculations Mechanic
+        //Checks if any object is referenced in movingPlatform 
         if (movingPlatform != null)
         {
+            //Gets platform Velocty
             platformVelocity = movingPlatform.GetComponent<VelocityCalculator>().GetVelocity();
         }
-        else platformVelocity = Vector2.zero;
+        else platformVelocity = Vector2.zero; //Sets it to Zero
 
         if (!isDashing && !isClimbing)
         {
             if (directionMove.x != 0f)
             {
+                //Prevents player from 'sticking' against a wall using the 'canClimb variable'
                 if (canClimb && !isGrounded)
                 {
                     directionMove.x = 0f;
@@ -131,10 +162,14 @@ public class PlayerMovement : MonoBehaviour
                 }
                 else
                 {
+                    //Horizontal Movement and Velocity
                     Vector2 targetVelocity = new Vector2(directionMove.x * moveSpeed + platformVelocity.x, rb.linearVelocityY + platformVelocity.y);
+
+                    //Running Animation Activation
                     if (isGrounded) animator.SetBool("isRunning", true);
                     else animator.SetBool("isRunning", false);
 
+                    //Allows changing of momentum when the opposite key is pressed
                     if (Mathf.Abs(rb.linearVelocityX) < moveSpeed || Mathf.Sign(directionMove.x) != Mathf.Sign(rb.linearVelocityX))
                     {
                         if (isGrounded)
@@ -143,18 +178,18 @@ public class PlayerMovement : MonoBehaviour
                         }
 
                         rb.linearVelocity = targetVelocity;
-                        //rb.linearVelocityX = targetVelocity.x;
                     }
                 }
             }
             else {
-                if (isGrounded) rb.linearDamping = decelRate;
+                if (isGrounded) rb.linearDamping = decelRate; // Stops abruptly
                 else rb.linearDamping = 0;
 
-                if (movingPlatform != null) rb.linearVelocity = new Vector2(platformVelocity.x, platformVelocity.y);
+                if (movingPlatform != null) rb.linearVelocity = new Vector2(platformVelocity.x, platformVelocity.y); // Allows the player to move with the platform
                 animator.SetBool("isRunning", false);
             }
 
+            //Allows for short hops(I dont think this one works though!)
             if (rb.linearVelocityY > 0 && !isGrounded && Keyboard.current.zKey.wasReleasedThisFrame)
             {
                 rb.gravityScale = reducedGravityScale;
@@ -167,9 +202,9 @@ public class PlayerMovement : MonoBehaviour
 
         //Climbing Logic
         if (isClimbing && stamina > 0 && !Keyboard.current.zKey.wasPressedThisFrame)
-        {
+        {   
+                //Makes the Player only move up and down, decreasing their stamina along the way until the climb key is released and their back on the ground again (isGround is true)
                 rb.gravityScale = 0;
-                //rb.linearVelocityX = directionMove.x != 0? directionMove.x * moveSpeed : 0;
                 rb.linearVelocityY = directionMove.y * climbSpeed;
                 stamina -= 0.5f;
         }
@@ -178,8 +213,11 @@ public class PlayerMovement : MonoBehaviour
             rb.gravityScale = 1f;
         }
         
-        animator.SetBool("isDashing", isDashing);
+        //Other non-walking Animations
+        animator.SetBool("isDashing", isDashing)
         animator.SetBool("isClimbing", isClimbing);
+
+        //Freeze when Player is just clinging on the wall, Unfreeze if they aint
         if (isClimbing && directionMove.y == 0) { animator.speed = 0f; }
         else animator.speed = 1f;
 
@@ -191,15 +229,19 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //'Coyote' Timing
-        if (!isGrounded && _timeLeftGrounded <= coyoteThreshold) { _timeLeftGrounded += Time.time;}
+        //  - Cool mechanic that was definitely not inspired by Looney Tunes. Allows the player to jump even when they go through a ledge for a very short time
+        if (!isGrounded && _timeLeftGrounded <= coyoteThreshold) { _timeLeftGrounded += Time.time;} //This works by increasing _timeLeftGrounded by the game's time per frame until its greater than coyoteThreshold
         animator.SetFloat("VerticalMove", rb.linearVelocityY);
         //Debug.Log(animator.GetFloat("VerticalMove"));
     }
 
     private void FixedUpdate()
     {
+        //Collision Points
         isGrounded = Physics2D.OverlapCircle(point.transform.position, radiusCollision, groundLayer);
         canClimb = Physics2D.OverlapCircle(wallPoint.transform.position, 0.1f, groundLayer);
+
+        //Resets everything back to its original place
         if (isGrounded) { 
             canDash = true; 
             stamina = origStamina;
@@ -210,6 +252,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void Flip() {
+        //It does what it does, though what I found interesting is that even the axis is inverted
         if (rightFlip)
         {
             rightFlip = false;
@@ -223,9 +266,9 @@ public class PlayerMovement : MonoBehaviour
 
     //Dashing Function
     IEnumerator DashFunc() {
+        //Starts Dashing based on the Directional Input
         isDashing = true;
-        dashPointObject = Instantiate(dashpPoint, transform.position, Quaternion.identity);
-        //ParticleEmit(transform.position, 1);
+        dashPointObject = Instantiate(dashpPoint, transform.position, Quaternion.identity); // For the Dash particle
         int dashDirection = transform.localScale.x > 0 ? 1 : -1;
         rb.gravityScale = 0;
         if (directionMove == Vector2.zero) rb.linearVelocity =  new Vector2(dashDirection * dashSpeed, 0);
@@ -233,13 +276,13 @@ public class PlayerMovement : MonoBehaviour
             rb.linearVelocity = new Vector2(directionMove.x * dashSpeed, directionMove.y * dashSpeed);
         }
         if (isGrounded && directionMove.y < 0) { Destroy(dashPointObject); StopCoroutine(DashFunc()); }
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.3f); //Pauses until 0.3 seconds is up
         Destroy(dashPointObject);
         canDash = false;
         isDashing = false;
         rb.gravityScale = 1;
         rb.linearVelocity = new Vector2(directionMove.x * moveSpeed, rb.linearVelocityY);
-        StopCoroutine(DashFunc());
+        StopCoroutine(DashFunc()); //Stops the function from looping again
     }
 
     //Death Function
@@ -248,12 +291,11 @@ public class PlayerMovement : MonoBehaviour
         rmControl.runRespawnFunc(gameObject);
     }
 
-    //Colliders
+    //Collision Checkers
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("MovingPlatform"))
         {
-            //transform.parent = collision.transform;
             movingPlatform = collision.gameObject;
         }
     } 
@@ -261,14 +303,9 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("MovingPlatform"))
         {
-            //transform.parent = null;
             movingPlatform = null;
         }
     }
-    private void ParticleEmit(Vector2 position, int count)
-    {
-        var EmitParams = new ParticleSystem.EmitParams();
-        EmitParams.position = position;
-        dashParticles.Emit(EmitParams, count);
-    }
 }
+
+//Very solid Player Controller!

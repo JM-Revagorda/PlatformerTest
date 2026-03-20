@@ -7,7 +7,6 @@ public class RoomBoundary : MonoBehaviour
     public GameObject spawnPoint;
     public ICinemachineCamera cam;
     public CinemachineCamera roomCamera;
-    public CinemachineCamera otherRoomCamera;
     public CinemachineBrain brain;
     GameObject player = null;
 
@@ -22,6 +21,8 @@ public class RoomBoundary : MonoBehaviour
         if (player == null && collision.gameObject.CompareTag("Player")) { 
             player = collision.gameObject;
             respawnManager.GetComponent<RespawnManager>().setNewSpawn(spawnPoint);
+
+            //Gets the Room's Camera and makes it a higher priority (trust in the process!)
             roomCamera.Priority = 10;
             cam = brain.ActiveVirtualCamera;
             if (cam is Component component)
@@ -41,9 +42,7 @@ public class RoomBoundary : MonoBehaviour
             if (!hasDied)
             {
                 player = null;
-                //roomCamera.gameObject.SetActive(false);
-                roomCamera.Priority = 0;
-                otherRoomCamera.Priority = 10;
+                roomCamera.Priority = 0; //Sets the Room's Camera to least favorite once Player leaves room
             }
         }
     }

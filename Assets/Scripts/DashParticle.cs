@@ -7,6 +7,7 @@ public class DashParticle : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        //Gets particle System
         ps = GetComponent<ParticleSystem>();
     }
 
@@ -17,6 +18,7 @@ public class DashParticle : MonoBehaviour
 
     IEnumerator DashParticleFX()
     {
+        //Simply Play, then Off itself
         ps.Play();
         yield return new WaitForSeconds(1);
         Destroy(gameObject);

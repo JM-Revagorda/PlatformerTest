@@ -9,11 +9,11 @@ public class SpringBoxScript : MonoBehaviour
     [SerializeField] LayerMask playerLayer;
 
     bool playerEnters = false;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     // Update is called once per frame
     private void Update()
     {
+        //Makes Player bounce upwards based on springStrength
         if (playerEnters) { 
             Rigidbody2D rb = other.GetComponent<Rigidbody2D>();
             PlayerMovement pm = other.GetComponent<PlayerMovement>();
