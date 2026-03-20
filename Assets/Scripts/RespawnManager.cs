@@ -30,7 +30,9 @@ public class RespawnManager : MonoBehaviour
         this.spawnPoint = spawnPoint;
     }
 
-    public void runRespawnFunc(GameObject objectInScene) { 
+    public void runRespawnFunc(GameObject objectInScene) {
+
+        if (PlayerDied) return; //stops the cloning at respawn - danni
         playerInScene = objectInScene;
         objectInScene.GetComponent<PlayerMovement>().animator.SetBool("isDead", true); //Allows this script to set the animation
         objectInScene.GetComponent<PlayerMovement>().enabled = false;   // Disables the Script to probably prevent 'double' deaths
