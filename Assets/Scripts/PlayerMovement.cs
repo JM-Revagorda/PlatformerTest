@@ -155,7 +155,7 @@ public class PlayerMovement : MonoBehaviour
             if (directionMove.x != 0f)
             {
                 //Prevents player from 'sticking' against a wall using the 'canClimb variable'
-                if (canClimb && !isGrounded)
+                if (Physics2D.OverlapCircle(wallPoint.transform.position, 0.1f, groundLayer) && !Physics2D.OverlapCircle(point.transform.position, 0.1f, groundLayer))
                 {
                     directionMove.x = 0f;
                     //rb.linearVelocityY = 0.70f;
@@ -217,7 +217,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("isDashing", isDashing);
         animator.SetBool("isClimbing", isClimbing);
 
-        //Freeze when Player is just clinging on the wall, Unfreeze if they aint
+        //Freeze animation when Player is just clinging on the wall, Unfreeze if they aint
         if (isClimbing && directionMove.y == 0) { animator.speed = 0f; }
         else animator.speed = 1f;
 
@@ -232,7 +232,6 @@ public class PlayerMovement : MonoBehaviour
         //  - Cool mechanic that was definitely not inspired by Looney Tunes. Allows the player to jump even when they go through a ledge for a very short time
         if (!isGrounded && _timeLeftGrounded <= coyoteThreshold) { _timeLeftGrounded += Time.time;} //This works by increasing _timeLeftGrounded by the game's time per frame until its greater than coyoteThreshold
         animator.SetFloat("VerticalMove", rb.linearVelocityY);
-        //Debug.Log(animator.GetFloat("VerticalMove"));
     }
 
     private void FixedUpdate()

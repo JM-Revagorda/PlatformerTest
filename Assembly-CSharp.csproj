@@ -51,7 +51,9 @@
   <ItemGroup>
     <Compile Include="Assets\danni-level1\scripts\CustomSineMovement.cs" />
     <Compile Include="Assets\Scripts\VelocityCalculator.cs" />
+    <Compile Include="Assets\Scripts\CutsceneManager.cs" />
     <Compile Include="Assets\Scripts\ShowBoxColliders.cs" />
+    <Compile Include="Assets\Scripts\EndGameCutscene.cs" />
     <Compile Include="Assets\Scripts\DashPlatformScript.cs" />
     <Compile Include="Assets\Scripts\RoomBoundary.cs" />
     <Compile Include="Assets\Scripts\PlayerControls.cs" />
