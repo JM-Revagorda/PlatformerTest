@@ -45,7 +45,7 @@ public class DashPlatformScript : MonoBehaviour
 
         transform.position = targetPos;
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1f);
 
         while (Vector3.Distance(transform.position, startPos) > 0.01f)
         {
