@@ -246,7 +246,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_ActionId: 60c2db92-2a25-4cc2-90b9-7b02fd922a2d
+    m_ActionId: 6e0589f3-0b36-4ce4-981e-ced2fd037eeb
     m_ActionName: 'Player/Climb[/Keyboard/c]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 

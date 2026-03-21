@@ -717,6 +717,7 @@ MonoBehaviour:
   startScene: {fileID: 0}
   endScene: {fileID: 0}
   finalScene: {fileID: 11400000, guid: accd62b9c60eaa14fbb8ad261aa9f2d1, type: 2}
+  LevelLoader: {fileID: 0}
 --- !u!1 &914949005
 GameObject:
   m_ObjectHideFlags: 0
@@ -1960,7 +1961,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7564836271437463400, guid: 033c6f3dfd2ee484ebd4ef2c68396f84, type: 3}
+  m_Sprite: {fileID: -7371698688028222605, guid: b9bae9010abf858439168a7e66468205, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

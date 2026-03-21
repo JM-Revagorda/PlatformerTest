@@ -2,15 +2,29 @@ using UnityEngine;
 
 public class EndGameCutscene : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] GameObject csManagerObj;
+    CutsceneManager csManager;
+    void Awake()
     {
-        
+        csManager = csManagerObj.GetComponent<CutsceneManager>();
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerEnter2d(Collision2D collision)
     {
-        
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            csManager.FinalScene();
+        }
     }
+    //// Start is called once before the first execution of Update after the MonoBehaviour is created
+    //void Start()
+    //{
+        
+    //}
+
+    //// Update is called once per frame
+    //void Update()
+    //{
+        
+    //}
 }

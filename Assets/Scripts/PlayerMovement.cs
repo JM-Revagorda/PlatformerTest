@@ -119,13 +119,23 @@ public class PlayerMovement : MonoBehaviour
             rb.linearVelocityY = jumpHeight + platformVelocity.y ;
         }
         //WallJump, When you Jump while holding 'C'
-        if (isClimbing) {
+        if (isClimbing && context.performed) {
             isClimbing = false;
             if (!rightFlip) reverser = 1;
             rb.linearVelocity = new Vector2((reverser * transform.right.x) * moveSpeed, jumpHeight);
         }
     }
     #endregion
+
+    //public void OnClimb(InputAction.CallbackContext context)
+    //{
+    //    if (context.performed && canClimb)
+    //    {
+    //        isClimbing = true;
+    //    } else if (context.canceled){
+    //        isClimbing = false;
+    //    }
+    //}
 
     //Dashing Movement
     #region DASH INPUT
@@ -141,6 +151,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        canClimb = Physics2D.OverlapCircle(wallPoint.transform.position, 0.1f, groundLayer);
         #region Velocity Calculations Mechanic
         //Checks if any object is referenced in movingPlatform 
         if (movingPlatform != null)
@@ -197,8 +208,8 @@ public class PlayerMovement : MonoBehaviour
         }
         #endregion
         //Climbing Mechanic
-        if (Keyboard.current.cKey.isPressed && canClimb) isClimbing = true;
-        else isClimbing = false;
+        if (Input.GetKey(KeyCode.C) && canClimb) { isClimbing = true; animator.SetBool("isClimbing", true); }
+        else { isClimbing = false; animator.SetBool("isClimbing", false); }
 
         //Climbing Logic
         if (isClimbing && stamina > 0 && !Keyboard.current.zKey.wasPressedThisFrame)
@@ -218,8 +229,9 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("isClimbing", isClimbing);
 
         //Freeze animation when Player is just clinging on the wall, Unfreeze if they aint
-        if (isClimbing && directionMove.y == 0) { animator.speed = 0f; }
-        else animator.speed = 1f;
+        //if (isClimbing && directionMove.y == 0) { animator.speed = 0f; }
+        //else animator.speed = 1f;
+        //Debug.Log(isClimbing && directionMove.y == 0);
 
         //Sprite and Wall Collision Flipping
         if (!isClimbing)
@@ -238,7 +250,6 @@ public class PlayerMovement : MonoBehaviour
     {
         //Collision Points
         isGrounded = Physics2D.OverlapCircle(point.transform.position, radiusCollision, groundLayer);
-        canClimb = Physics2D.OverlapCircle(wallPoint.transform.position, 0.1f, groundLayer);
 
         //Resets everything back to its original place
         if (isGrounded) { 
@@ -247,6 +258,7 @@ public class PlayerMovement : MonoBehaviour
             _timeLeftGrounded = 0;
         }
         animator.SetBool("isGrounded", isGrounded);
+
         //Debug.Log(canClimb);
     }
 
