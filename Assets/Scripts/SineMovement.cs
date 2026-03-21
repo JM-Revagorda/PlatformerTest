@@ -22,14 +22,5 @@ public class SineMovement : MonoBehaviour
     void FixedUpdate()
     {
         transform.position = new Vector3(initialPosition.x, Mathf.Sin(Time.time * frequency) * magnitude + initialPosition.y, initialPosition.z);
-        //float x = initialPosition.x + (moveSpeed * Time.deltaTime);
-        //float y = initialPosition.y + Mathf.Sin(Time.time * frequency) * magnitude;
-
-        //switch (direction)
-        //{
-        //    case SineDirection.Vertical: transform.position = new Vector2(transform.position.x, y); break;
-        //    case SineDirection.Horizontal: transform.position = new Vector2(x, transform.position.y); break;
-        //}
-        //initialPosition = transform.position;
     }
 }
