@@ -49,7 +49,7 @@ public class RespawnManager : MonoBehaviour
             deathCounter++;
             Debug.Log("Deaths: " + deathCounter);
         }
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.23f);
         Destroy(deathParticles);
         playerInScene = Instantiate(player, spawnPoint.transform.position, Quaternion.identity);
         playerInScene.transform.position = spawnPoint.transform.position;
