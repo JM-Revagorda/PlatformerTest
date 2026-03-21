@@ -4023,6 +4023,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4907672157477023421, guid: 184ee50ed3127f74bb21c50533f9c9bc, type: 3}
   m_PrefabInstance: {fileID: 1809225128}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &344438469 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4321800271539718700, guid: db65511cb071a4e4d92a323befbf9575, type: 3}
+  m_PrefabInstance: {fileID: 1922753928}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &351983824
 GameObject:
   m_ObjectHideFlags: 0
@@ -46589,6 +46594,7 @@ MonoBehaviour:
   startScene: {fileID: 11400000, guid: dc33a563328d4334380d2f07dd45e1af, type: 2}
   endScene: {fileID: 11400000, guid: 06aa3899cba433649a9e486a0101f13d, type: 2}
   finalScene: {fileID: 0}
+  LevelLoader: {fileID: 344438469}
 --- !u!1001 &2145033091
 PrefabInstance:
   m_ObjectHideFlags: 0
