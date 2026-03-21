@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\acer\\documents\\e2\\platformertest\\assets\\danni-level1\\assets\\scripts\\customspringbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\danni-level1\\assets\\scripts\\customspringbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\acer\\documents\\e2\\platformertest\\assets\\danni-level1\\scripts\\customsinemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\danni-level1\\scripts\\customsinemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\acer\\documents\\e2\\platformertest\\assets\\scripts\\springboxscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\springboxscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\danni-level1\\scripts\\Custom_SpringBox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\danni-level1\\scripts\\Custom_SpringBox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CustomSpringBox.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\danni-level1\\assets\\scripts\\CustomSpringBox.cs",
-              "RelativeDocumentMoniker": "Assets\\danni-level1\\assets\\scripts\\CustomSpringBox.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\danni-level1\\assets\\scripts\\CustomSpringBox.cs",
-              "RelativeToolTip": "Assets\\danni-level1\\assets\\scripts\\CustomSpringBox.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwDEAAAAUAAAAAAAAAA==",
+              "Title": "CustomSineMovement.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\danni-level1\\scripts\\CustomSineMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\danni-level1\\scripts\\CustomSineMovement.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\danni-level1\\scripts\\CustomSineMovement.cs",
+              "RelativeToolTip": "Assets\\danni-level1\\scripts\\CustomSineMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T18:33:42.506Z",
+              "WhenOpened": "2026-03-21T07:56:57.723Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SpringBoxScript.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\Scripts\\SpringBoxScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SpringBoxScript.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\Scripts\\SpringBoxScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SpringBoxScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Title": "Custom_SpringBox.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\danni-level1\\scripts\\Custom_SpringBox.cs",
+              "RelativeDocumentMoniker": "Assets\\danni-level1\\scripts\\Custom_SpringBox.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\danni-level1\\scripts\\Custom_SpringBox.cs",
+              "RelativeToolTip": "Assets\\danni-level1\\scripts\\Custom_SpringBox.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T18:27:16.85Z"
+              "WhenOpened": "2026-03-21T07:27:44.178Z",
+              "EditorCaption": ""
             }
           ]
         }

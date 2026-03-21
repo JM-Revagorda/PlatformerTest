@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 5d8413eeb24dab944b6827fb5d27b86f
+guid: 99948c6c7639b934ea27b57f430fcb47
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8170845464920556378
-    second: spring-box_0
+      213: 123125781614750115
+    second: spring-box1_0
   - first:
-      213: -782157725093820103
-    second: spring-box_1
+      213: 1071655106370019486
+    second: spring-box1_1
   - first:
-      213: 8645959394160609396
-    second: spring-box_2
+      213: 3245367487601959178
+    second: spring-box1_2
   - first:
-      213: 2311569827850280962
-    second: spring-box_3
+      213: 7973056773295037580
+    second: spring-box1_3
   - first:
-      213: -8537891879545598972
-    second: spring-box_4
+      213: 2143591930022651567
+    second: spring-box1_4
   - first:
-      213: 6477391727984548880
-    second: spring-box_5
+      213: 4791316403269467050
+    second: spring-box1_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 160
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -115,7 +115,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spring-box_0
+      name: spring-box1_0
       rect:
         serializedVersion: 2
         x: 21
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ac7cc437535b9e80800000000000000
-      internalID: -8170845464920556378
+      spriteID: 3a9e6dbfe3e65b100800000000000000
+      internalID: 123125781614750115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spring-box_1
+      name: spring-box1_1
       rect:
         serializedVersion: 2
-        x: 152
-        y: 182
-        width: 93
-        height: 84
+        x: 151
+        y: 181
+        width: 95
+        height: 86
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 939847d61b73525f0800000000000000
-      internalID: -782157725093820103
+      spriteID: e902be034a84fde00800000000000000
+      internalID: 1071655106370019486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spring-box_2
+      name: spring-box1_2
       rect:
         serializedVersion: 2
-        x: 283
-        y: 180
-        width: 92
-        height: 90
+        x: 282
+        y: 179
+        width: 94
+        height: 92
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +174,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 478056fb24e9cf770800000000000000
-      internalID: 8645959394160609396
+      spriteID: a01ed18098cd90d20800000000000000
+      internalID: 3245367487601959178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spring-box_3
+      name: spring-box1_3
       rect:
         serializedVersion: 2
-        x: 413
+        x: 408
         y: 177
-        width: 92
-        height: 103
+        width: 94
+        height: 105
+      alignment: 9
+      pivot: {x: 0.54, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8cd54a64ecf5ae60800000000000000
+      internalID: 7973056773295037580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spring-box1_4
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 176
+        width: 95
+        height: 128
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,42 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 200e68ed288541020800000000000000
-      internalID: 2311569827850280962
+      spriteID: fa6e46cc0819fbd10800000000000000
+      internalID: 2143591930022651567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spring-box_4
+      name: spring-box1_5
       rect:
         serializedVersion: 2
-        x: 533
-        y: 177
-        width: 93
-        height: 126
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 40c0efc3290538980800000000000000
-      internalID: -8537891879545598972
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spring-box_5
-      rect:
-        serializedVersion: 2
-        x: 435
-        y: 165
-        width: 11
-        height: 13
+        x: 434
+        y: 164
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,8 +240,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01c9299357154e950800000000000000
-      internalID: 6477391727984548880
+      spriteID: aabf06f12ec2e7240800000000000000
+      internalID: 4791316403269467050
       vertices: []
       indices: 
       edges: []
@@ -250,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 883c30c60b30738459b3d0b2d9b5628f
+    spriteID: d3fe808a5e4736946a68d3050383641b
     internalID: 0
     vertices: []
     indices: 
@@ -258,16 +258,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      spring-box_0: -8170845464920556378
-      spring-box_1: -782157725093820103
-      spring-box_2: 8645959394160609396
-      spring-box_3: 2311569827850280962
-      spring-box_4: -8537891879545598972
-      spring-box_5: 6477391727984548880
+      spring-box1_0: 123125781614750115
+      spring-box1_1: 1071655106370019486
+      spring-box1_2: 3245367487601959178
+      spring-box1_3: 7973056773295037580
+      spring-box1_4: 2143591930022651567
+      spring-box1_5: 4791316403269467050
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

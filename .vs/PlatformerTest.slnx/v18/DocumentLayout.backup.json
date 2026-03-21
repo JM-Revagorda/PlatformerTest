@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\acer\\documents\\e2\\platformertest\\assets\\danni-level1\\assets\\scripts\\customspringbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\danni-level1\\assets\\scripts\\customspringbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\Scripts\\SpringBoxScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SpringBoxScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\acer\\documents\\e2\\platformertest\\assets\\scripts\\respawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\respawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Library\\PackageCache\\com.unity.collab-proxy@e566cd3e7623\\Editor\\FindWorkspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.collab-proxy@e566cd3e7623\\Editor\\FindWorkspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\acer\\documents\\e2\\platformertest\\assets\\danni-level1\\scripts\\custom_springbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\danni-level1\\scripts\\custom_springbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,52 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CustomSpringBox.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\danni-level1\\assets\\scripts\\CustomSpringBox.cs",
-              "RelativeDocumentMoniker": "Assets\\danni-level1\\assets\\scripts\\CustomSpringBox.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\danni-level1\\assets\\scripts\\CustomSpringBox.cs",
-              "RelativeToolTip": "Assets\\danni-level1\\assets\\scripts\\CustomSpringBox.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAswBYAAAA3AAAAAAAAAA==",
+              "Title": "Custom_SpringBox.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\danni-level1\\scripts\\Custom_SpringBox.cs",
+              "RelativeDocumentMoniker": "Assets\\danni-level1\\scripts\\Custom_SpringBox.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\danni-level1\\scripts\\Custom_SpringBox.cs",
+              "RelativeToolTip": "Assets\\danni-level1\\scripts\\Custom_SpringBox.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwDQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T18:33:42.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FindWorkspace.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Library\\PackageCache\\com.unity.collab-proxy@e566cd3e7623\\Editor\\FindWorkspace.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.collab-proxy@e566cd3e7623\\Editor\\FindWorkspace.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Library\\PackageCache\\com.unity.collab-proxy@e566cd3e7623\\Editor\\FindWorkspace.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.collab-proxy@e566cd3e7623\\Editor\\FindWorkspace.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T15:19:58.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RespawnManager.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\Scripts\\RespawnManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\RespawnManager.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\Scripts\\RespawnManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\RespawnManager.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwCIAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T12:33:09.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SpringBoxScript.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\Scripts\\SpringBoxScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SpringBoxScript.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\Scripts\\SpringBoxScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SpringBoxScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T18:27:16.85Z",
+              "WhenOpened": "2026-03-21T06:11:15.471Z",
               "EditorCaption": ""
             }
           ]
