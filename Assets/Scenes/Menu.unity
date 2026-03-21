@@ -572,8 +572,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f163731711dd6db43af1518ee652d931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  usernameInput: {fileID: 0}
+  volumeSlider: {fileID: 0}
+  musicButtonText: {fileID: 0}
   startGameScene: Tutorial
-  optionScene: what option?
+  optionScene: Options
   levelLoader: {fileID: 1709298269}
 --- !u!4 &913884066
 Transform:

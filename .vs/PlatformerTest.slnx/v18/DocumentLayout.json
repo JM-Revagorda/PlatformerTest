@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\acer\\documents\\e2\\platformertest\\assets\\scripts\\respawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\respawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\acer\\documents\\e2\\platformertest\\assets\\scripts\\deathstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\deathstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\acer\\documents\\e2\\platformertest\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\acer\\documents\\e2\\platformertest\\assets\\danni-level1\\assets\\scripts\\customdashplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\danni-level1\\assets\\scripts\\customdashplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\acer\\documents\\e2\\platformertest\\assets\\danni-level1\\scripts\\custom_springbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\danni-level1\\scripts\\custom_springbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\danni-level1\\scripts\\SpriteFlicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\danni-level1\\scripts\\SpriteFlicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\acer\\documents\\e2\\platformertest\\assets\\scripts\\menubuttonscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menubuttonscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DeathStart.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\Scripts\\DeathStart.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DeathStart.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\Scripts\\DeathStart.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DeathStart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T14:35:32.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RespawnManager.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\Scripts\\RespawnManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\RespawnManager.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\Scripts\\RespawnManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\RespawnManager.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAuwDMAAAAsAAAAAAAAAA==",
+              "Title": "MenuButtonScript.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\Scripts\\MenuButtonScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuButtonScript.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\Scripts\\MenuButtonScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuButtonScript.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAQwFQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T14:57:13.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAAALsAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T13:43:15.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomDashPlatform.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\danni-level1\\assets\\scripts\\CustomDashPlatform.cs",
-              "RelativeDocumentMoniker": "Assets\\danni-level1\\assets\\scripts\\CustomDashPlatform.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\danni-level1\\assets\\scripts\\CustomDashPlatform.cs",
-              "RelativeToolTip": "Assets\\danni-level1\\assets\\scripts\\CustomDashPlatform.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAAD4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T13:29:53.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Custom_SpringBox.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\danni-level1\\scripts\\Custom_SpringBox.cs",
-              "RelativeDocumentMoniker": "Assets\\danni-level1\\scripts\\Custom_SpringBox.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\danni-level1\\scripts\\Custom_SpringBox.cs",
-              "RelativeToolTip": "Assets\\danni-level1\\scripts\\Custom_SpringBox.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwDMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T12:16:33.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SpriteFlicker.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\danni-level1\\scripts\\SpriteFlicker.cs",
-              "RelativeDocumentMoniker": "Assets\\danni-level1\\scripts\\SpriteFlicker.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\E2\\PlatformerTest\\Assets\\danni-level1\\scripts\\SpriteFlicker.cs",
-              "RelativeToolTip": "Assets\\danni-level1\\scripts\\SpriteFlicker.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAqwBsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T11:56:13.983Z",
+              "WhenOpened": "2026-03-21T16:48:15.692Z",
               "EditorCaption": ""
             }
           ]
