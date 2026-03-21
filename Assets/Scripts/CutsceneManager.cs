@@ -9,6 +9,7 @@ public class CutsceneManager : MonoBehaviour
     [SerializeField] TimelineAsset startScene;
     [SerializeField] TimelineAsset endScene;
     [SerializeField] TimelineAsset finalScene;
+    [SerializeField] GameObject LevelLoader;
     string sceneName;
     PlayableDirector director;
 
@@ -43,7 +44,8 @@ public class CutsceneManager : MonoBehaviour
         {
             if (director.playableAsset == endScene && director.state != PlayState.Playing)
             {
-                MoveNextScene(sceneName);
+                LevelLoader.GetComponent<LevelLoader>().LoadNextScene();
+                //MoveNextScene(sceneName);
             }
         }
     }
