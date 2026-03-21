@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 71d02474dbe70284d8b539f2094605d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3180191334307295978
+    second: ladder1_0
+  - first:
+      213: -4848956257519446813
+    second: ladder1_1
+  - first:
+      213: -6806490818489360083
+    second: ladder1_2
+  - first:
+      213: -4339367712135382563
+    second: ladder1_3
+  - first:
+      213: -6930504714353367209
+    second: ladder1_4
+  - first:
+      213: -472930951104686599
+    second: ladder1_5
+  - first:
+      213: -5192940242027424952
+    second: ladder1_6
+  - first:
+      213: 6839395011720367963
+    second: ladder1_7
+  - first:
+      213: 8633854071671084694
+    second: ladder1_8
+  - first:
+      213: -7060735074697844241
+    second: ladder1_9
+  - first:
+      213: -4065664008332128795
+    second: ladder1_10
+  - first:
+      213: -2865018898595748813
+    second: ladder1_11
+  - first:
+      213: 4066263295300847022
+    second: ladder1_12
+  - first:
+      213: -7825104146456528593
+    second: ladder1_13
+  - first:
+      213: 7220003810189397040
+    second: ladder1_14
+  - first:
+      213: 147575333221478731
+    second: ladder1_15
+  - first:
+      213: -8747157568843288616
+    second: ladder1_16
+  - first:
+      213: 4010274833859152693
+    second: ladder1_17
+  - first:
+      213: 3261319075040371465
+    second: ladder1_18
+  - first:
+      213: 64506764635834147
+    second: ladder1_19
+  - first:
+      213: 2507606731934289671
+    second: ladder1_20
+  - first:
+      213: 7541947190972742770
+    second: ladder1_21
+  - first:
+      213: -4666838205951166061
+    second: ladder1_22
+  - first:
+      213: -2899079071462623419
+    second: ladder1_23
+  - first:
+      213: -7483099220494993730
+    second: ladder1_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ladder1_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 14
+        width: 109
+        height: 779
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2792f4b2f422c20800000000000000
+      internalID: 3180191334307295978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder1_1
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 746
+        width: 78
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4552389fb05bcb0800000000000000
+      internalID: -4848956257519446813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder1_2
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 709
+        width: 50
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21ebf4b9ac7a81a0800000000000000
+      internalID: -6806490818489360083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder1_3
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 683
+        width: 50
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9fe588e0877c3c0800000000000000
+      internalID: -4339367712135382563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder1_4
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 659
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7572cc28ea6e1df90800000000000000
+      internalID: -6930504714353367209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder1_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 657
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f51e104ecfcf69f0800000000000000
+      internalID: -472930951104686599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder1_6
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 635
+        width: 66
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843df1efc58fee7b0800000000000000
+      internalID: -5192940242027424952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder1_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 611
+        width: 66
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fcb28c6896aee50800000000000000
+      internalID: 6839395011720367963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder1_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 511
+        width: 7
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696d388b88c91d770800000000000000
+      internalID: 8633854071671084694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder1_9
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 511
+        width: 10
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe96e73ebda330e90800000000000000
+      internalID: -7060735074697844241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder1_10
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 13
+        width: 111
+        height: 493
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edc54f002cd397c0800000000000000
+      internalID: -4065664008332128795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder1_11
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 368
+        width: 17
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3346b62cd786d38d0800000000000000
+      internalID: -2865018898595748813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder1_12
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 368
+        width: 18
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5cd9f4ce44e6830800000000000000
+      internalID: 4066263295300847022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder1_13
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 311
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29b50cec35a76390800000000000000
+      internalID: -7825104146456528593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder1_14
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 312
+        width: 10
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c4e4f463b923460800000000000000
+      internalID: 7220003810189397040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder1_15
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 240
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41b642dbfa4c0200800000000000000
+      internalID: 147575333221478731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder1_16
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 240
+        width: 11
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dfe9ba198adb9680800000000000000
+      internalID: -8747157568843288616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder1_17
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 222
+        width: 53
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b0ddbc6bb57a730800000000000000
+      internalID: 4010274833859152693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder1_18
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 190
+        width: 54
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903acf66b68824d20800000000000000
+      internalID: 3261319075040371465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder1_19
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 158
+        width: 53
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3278ab78f8c25e000800000000000000
+      internalID: 64506764635834147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder1_20
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 57
+        width: 28
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f425d690fccc220800000000000000
+      internalID: 2507606731934289671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder1_21
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 19
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c7fa0e2016aa860800000000000000
+      internalID: 7541947190972742770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder1_22
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 39
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3993f0ea06f0c3fb0800000000000000
+      internalID: -4666838205951166061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder1_23
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 25
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54773b9c1f664c7d0800000000000000
+      internalID: -2899079071462623419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder1_24
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 27
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6b467f7e0b62890800000000000000
+      internalID: -7483099220494993730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ae1f101a3eb508649a5efd1c017d34a9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ladder1_0: 3180191334307295978
+      ladder1_1: -4848956257519446813
+      ladder1_10: -4065664008332128795
+      ladder1_11: -2865018898595748813
+      ladder1_12: 4066263295300847022
+      ladder1_13: -7825104146456528593
+      ladder1_14: 7220003810189397040
+      ladder1_15: 147575333221478731
+      ladder1_16: -8747157568843288616
+      ladder1_17: 4010274833859152693
+      ladder1_18: 3261319075040371465
+      ladder1_19: 64506764635834147
+      ladder1_2: -6806490818489360083
+      ladder1_20: 2507606731934289671
+      ladder1_21: 7541947190972742770
+      ladder1_22: -4666838205951166061
+      ladder1_23: -2899079071462623419
+      ladder1_24: -7483099220494993730
+      ladder1_3: -4339367712135382563
+      ladder1_4: -6930504714353367209
+      ladder1_5: -472930951104686599
+      ladder1_6: -5192940242027424952
+      ladder1_7: 6839395011720367963
+      ladder1_8: 8633854071671084694
+      ladder1_9: -7060735074697844241
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
