@@ -54,12 +54,14 @@
     <Compile Include="Assets\Scripts\ShowBoxColliders.cs" />
     <Compile Include="Assets\Scripts\DashPlatformScript.cs" />
     <Compile Include="Assets\Scripts\RoomBoundary.cs" />
+    <Compile Include="Assets\danni-level1\assets\scripts\CementCheckpoint.cs" />
     <Compile Include="Assets\Scripts\PlayerControls.cs" />
     <Compile Include="Assets\Scripts\SpawnPoint.cs" />
     <Compile Include="Assets\danni-level1\scripts\Custom_SpringBox.cs" />
     <Compile Include="Assets\danni-level1\assets\scripts\CustomSpringBox.cs" />
     <Compile Include="Assets\Scripts\SpikeCollision.cs" />
     <Compile Include="Assets\Scripts\SpringBoxScript.cs" />
+    <Compile Include="Assets\danni-level1\assets\scripts\SpriteFlicker.cs" />
     <Compile Include="Assets\Scripts\SineMovement.cs" />
     <Compile Include="Assets\Scripts\WindForceClass.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
