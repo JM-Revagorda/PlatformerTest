@@ -4724,6 +4724,10 @@ PrefabInstance:
       value: level 2
       objectReference: {fileID: 0}
     - target: {fileID: 2876990637017657110, guid: 1dd196c0c0a484741b014a71a11ce6df, type: 3}
+      propertyPath: levelLoader
+      value: 
+      objectReference: {fileID: 150210390}
+    - target: {fileID: 2876990637017657110, guid: 1dd196c0c0a484741b014a71a11ce6df, type: 3}
       propertyPath: cutsceneManager
       value: 
       objectReference: {fileID: 1763024101}

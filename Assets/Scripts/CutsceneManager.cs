@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
+using Unity.Cinemachine;
 using UnityEngine.SceneManagement;
 
 public class CutsceneManager : MonoBehaviour
@@ -10,16 +11,25 @@ public class CutsceneManager : MonoBehaviour
     [SerializeField] TimelineAsset endScene;
     [SerializeField] TimelineAsset finalScene;
     [SerializeField] GameObject LevelLoader;
+
     string sceneName;
     PlayableDirector director;
+    [SerializeField] bool isPaused = false;
+    GameObject mainCamera;
+    CinemachineBrain camBrain;
 
     void Start()
     {
         director = GetComponent<PlayableDirector>();
-        director.playableAsset = startScene; 
-        director.RebuildGraph();    
-        director.time = 0;
-        director.Play();
+        mainCamera = Camera.main.gameObject;
+        camBrain = mainCamera.GetComponent<CinemachineBrain>();
+        if (startScene != null)
+        {
+            director.playableAsset = startScene;
+            director.RebuildGraph();
+            director.time = 0;
+            director.Play();
+        }
     }
     public void SetSceneName(string scene)
     {
@@ -47,11 +57,42 @@ public class CutsceneManager : MonoBehaviour
             {
                 LevelLoader.GetComponent<LevelLoader>().LoadNextScene();
             }
+        } 
+        if (finalScene != null && !isPaused)
+        {
+            if (director.playableAsset == finalScene && director.state != PlayState.Playing)
+            {
+                LevelLoader.GetComponent<LevelLoader>().LoadNextScene("Menu");
+                //if (Input.anyKeyDown)
+                //{
+                //    isPaused = true;
+                //    UnfreezeGame();
+                //} else
+                //    FreezeGame();
+            }
         }
+
+        //if (isPaused)
+        //{
+            
+        //}
     }
 
     void MoveNextScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+    }
+    
+    void FreezeGame()
+    {
+        camBrain.enabled = false;
+        Time.timeScale = 0;
+        isPaused = true;
+    }
+    void UnfreezeGame()
+    {
+        Time.timeScale = 1;
+        //isPaused = false;
+        LevelLoader.GetComponent<LevelLoader>().LoadNextScene("Menu");
     }
 }
