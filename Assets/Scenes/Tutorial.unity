@@ -46571,6 +46571,7 @@ MonoBehaviour:
   endScene: {fileID: 11400000, guid: 06aa3899cba433649a9e486a0101f13d, type: 2}
   finalScene: {fileID: 0}
   LevelLoader: {fileID: 344438469}
+  isPaused: 0
 --- !u!1001 &2145033091
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46702,6 +46703,10 @@ PrefabInstance:
     - target: {fileID: 121026801875872273, guid: 1dd196c0c0a484741b014a71a11ce6df, type: 3}
       propertyPath: m_Name
       value: NextScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876990637017657110, guid: 1dd196c0c0a484741b014a71a11ce6df, type: 3}
+      propertyPath: canDoEndScene
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2876990637017657110, guid: 1dd196c0c0a484741b014a71a11ce6df, type: 3}
       propertyPath: cutsceneManager

@@ -9,7 +9,7 @@ public class EndGameCutscene : MonoBehaviour
         csManager = csManagerObj.GetComponent<CutsceneManager>();
     }
 
-    void OnTriggerEnter2d(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
