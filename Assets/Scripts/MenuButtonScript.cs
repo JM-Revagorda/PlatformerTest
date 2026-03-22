@@ -50,6 +50,9 @@ public class MenuButtonScript : MonoBehaviour
 
         // Mute/Unmute actual game audio
         AudioListener.pause = !isMusicOn;
+
+        // instantly adjusts the volume
+        AudioListener.volume = isMusicOn ? volumeSlider.value : 0;
     }
 
     public void SaveSettings()
@@ -72,6 +75,19 @@ public class MenuButtonScript : MonoBehaviour
     public void goToOptionScene()
     {
         SceneManager.LoadScene(optionScene);
+    }
+
+    public void OnVolumeSliderChanged()
+    {
+        if (volumeSlider != null)
+        {
+            // This line changes the actual volume of the game instantly
+            // If music is ON, it uses the slider value. If OFF, it stays at 0.
+            AudioListener.volume = isMusicOn ? volumeSlider.value : 0;
+
+            // Optional: Update PlayerPrefs here if you want it to save while sliding
+            PlayerPrefs.SetFloat("Volume", volumeSlider.value);
+        }
     }
 
     public void BackToMenu()
