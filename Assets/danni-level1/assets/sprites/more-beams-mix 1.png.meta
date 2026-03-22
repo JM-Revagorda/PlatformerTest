@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 7a2de9db526d73148a9bb3e3e777baca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7193936019369444207
+    second: more-beams-mix 1_0
+  - first:
+      213: 6668752105883011331
+    second: more-beams-mix 1_1
+  - first:
+      213: -811375990659134733
+    second: more-beams-mix 1_2
+  - first:
+      213: 8612236112330943902
+    second: more-beams-mix 1_3
+  - first:
+      213: 6354629871246207529
+    second: more-beams-mix 1_4
+  - first:
+      213: 8321051633753002528
+    second: more-beams-mix 1_5
+  - first:
+      213: -1258103704957522464
+    second: more-beams-mix 1_6
+  - first:
+      213: -4075359933875253206
+    second: more-beams-mix 1_7
+  - first:
+      213: 3398294163123900758
+    second: more-beams-mix 1_8
+  - first:
+      213: -5919525848096665814
+    second: more-beams-mix 1_9
+  - first:
+      213: -15939964801812336
+    second: more-beams-mix 1_10
+  - first:
+      213: 669145539121956097
+    second: more-beams-mix 1_11
+  - first:
+      213: 172131025443287763
+    second: more-beams-mix 1_12
+  - first:
+      213: -352530176459084551
+    second: more-beams-mix 1_13
+  - first:
+      213: -6709461200942888167
+    second: more-beams-mix 1_14
+  - first:
+      213: 2101954405863996222
+    second: more-beams-mix 1_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: more-beams-mix 1_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 516
+        width: 27
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19cb8943e410a2c90800000000000000
+      internalID: -7193936019369444207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-mix 1_1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 700
+        width: 27
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3098b4e25ba2c8c50800000000000000
+      internalID: 6668752105883011331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-mix 1_2
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 628
+        width: 27
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa4b79d5d96db4f0800000000000000
+      internalID: -811375990659134733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-mix 1_3
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 519
+        width: 27
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9de6455d1fc48770800000000000000
+      internalID: 8612236112330943902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-mix 1_4
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 582
+        width: 138
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a67ba133e203850800000000000000
+      internalID: 6354629871246207529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-mix 1_5
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 797
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0221883cf505a7370800000000000000
+      internalID: 8321051633753002528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-mix 1_6
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 781
+        width: 7
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed676798515a8ee0800000000000000
+      internalID: -1258103704957522464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-mix 1_7
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 437
+        width: 178
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2091897bb96177c0800000000000000
+      internalID: -4075359933875253206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-mix 1_8
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 591
+        width: 128
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6519843598a292f20800000000000000
+      internalID: 3398294163123900758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-mix 1_9
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 512
+        width: 115
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f8479aa9e99dda0800000000000000
+      internalID: -5919525848096665814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-mix 1_10
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 346
+        width: 111
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098714cbfae57cff0800000000000000
+      internalID: -15939964801812336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-mix 1_11
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 260
+        width: 98
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105c6629258494900800000000000000
+      internalID: 669145539121956097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-mix 1_12
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 161
+        width: 281
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2fe527148836200800000000000000
+      internalID: 172131025443287763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-mix 1_13
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 163
+        width: 559
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fcec8b1caf8b1bf0800000000000000
+      internalID: -352530176459084551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-mix 1_14
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 82
+        width: 512
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b8883069433e2a0800000000000000
+      internalID: -6709461200942888167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: more-beams-mix 1_15
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 53
+        width: 171
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b379f3564ab2d10800000000000000
+      internalID: 2101954405863996222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      more-beams-mix 1_0: -7193936019369444207
+      more-beams-mix 1_1: 6668752105883011331
+      more-beams-mix 1_10: -15939964801812336
+      more-beams-mix 1_11: 669145539121956097
+      more-beams-mix 1_12: 172131025443287763
+      more-beams-mix 1_13: -352530176459084551
+      more-beams-mix 1_14: -6709461200942888167
+      more-beams-mix 1_15: 2101954405863996222
+      more-beams-mix 1_2: -811375990659134733
+      more-beams-mix 1_3: 8612236112330943902
+      more-beams-mix 1_4: 6354629871246207529
+      more-beams-mix 1_5: 8321051633753002528
+      more-beams-mix 1_6: -1258103704957522464
+      more-beams-mix 1_7: -4075359933875253206
+      more-beams-mix 1_8: 3398294163123900758
+      more-beams-mix 1_9: -5919525848096665814
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
