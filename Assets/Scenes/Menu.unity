@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &172167992 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4321800271539718700, guid: db65511cb071a4e4d92a323befbf9575, type: 3}
+  m_PrefabInstance: {fileID: 1801583398}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &269812018
 GameObject:
   m_ObjectHideFlags: 0
@@ -500,9 +505,9 @@ MonoBehaviour:
   usernameInput: {fileID: 0}
   volumeSlider: {fileID: 0}
   musicButtonText: {fileID: 0}
-  startGameScene: Level 1
+  startGameScene: Tutorial
   optionScene: Options
-  levelLoader: {fileID: 0}
+  levelLoader: {fileID: 172167992}
 --- !u!4 &913884066
 Transform:
   m_ObjectHideFlags: 0
