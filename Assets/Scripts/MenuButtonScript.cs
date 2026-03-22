@@ -13,7 +13,7 @@ public class MenuButtonScript : MonoBehaviour
     public TextMeshProUGUI musicButtonText; // Drag the "ON" text here
 
     [Header("Scene Settings")]
-    [SerializeField] string startGameScene = "Level 1";
+    [SerializeField] string startGameScene;
     [SerializeField] string optionScene = "Options";
     [SerializeField] GameObject levelLoader;
 
@@ -67,7 +67,7 @@ public class MenuButtonScript : MonoBehaviour
     public void StartGame()
     {
         if (levelLoader != null)
-            levelLoader.GetComponent<LevelLoader>().LoadNextScene();
+            levelLoader.GetComponent<LevelLoader>().LoadNextScene(startGameScene);
         else
             SceneManager.LoadScene(startGameScene);
     }

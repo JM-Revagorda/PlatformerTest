@@ -26,6 +26,7 @@ public class CutsceneManager : MonoBehaviour
         sceneName = scene;
     }
     public void EndLevelScene() {
+        director = GetComponent<PlayableDirector>();
         director.playableAsset = endScene;
         director.RebuildGraph();
         director.time = 0;
@@ -45,7 +46,6 @@ public class CutsceneManager : MonoBehaviour
             if (director.playableAsset == endScene && director.state != PlayState.Playing)
             {
                 LevelLoader.GetComponent<LevelLoader>().LoadNextScene();
-                //MoveNextScene(sceneName);
             }
         }
     }
