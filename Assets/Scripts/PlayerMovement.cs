@@ -216,7 +216,7 @@ public class PlayerMovement : MonoBehaviour
         {   
                 //Makes the Player only move up and down, decreasing their stamina along the way until the climb key is released and their back on the ground again (isGround is true)
                 rb.gravityScale = 0;
-                rb.linearVelocityY = directionMove.y * climbSpeed;
+                rb.linearVelocityY = (directionMove.y * climbSpeed) + platformVelocity.y;
                 stamina -= 0.5f;
         }
         else
