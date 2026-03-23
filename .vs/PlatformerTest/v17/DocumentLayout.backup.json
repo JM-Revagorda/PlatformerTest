@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\Unity Projs\\PlatformerTest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\MenuButtonScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MenuButtonScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\ScreenHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ScreenHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\MusicManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MusicManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LevelLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\MenuButtonScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MenuButtonScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\SpringBoxScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SpringBoxScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -54,23 +62,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EndLevelScript.cs",
-              "DocumentMoniker": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\EndLevelScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EndLevelScript.cs",
-              "ToolTip": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\EndLevelScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EndLevelScript.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ScreenHandler.cs",
+              "DocumentMoniker": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\ScreenHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScreenHandler.cs",
+              "ToolTip": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\ScreenHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScreenHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwBYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T03:36:48.634Z"
+              "WhenOpened": "2026-03-23T08:26:38.459Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "CutsceneManager.cs",
               "DocumentMoniker": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\CutsceneManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CutsceneManager.cs",
@@ -82,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "SpringBoxScript.cs",
               "DocumentMoniker": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\SpringBoxScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpringBoxScript.cs",
@@ -94,20 +103,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
               "ToolTip": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAL2ZmZmYUwGAAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T10:32:40.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-20T10:32:40.663Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "DashPlatformScript.cs",
               "DocumentMoniker": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\DashPlatformScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DashPlatformScript.cs",
@@ -119,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "SineMovement.cs",
               "DocumentMoniker": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\SineMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SineMovement.cs",
@@ -131,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "RoomBoundary.cs",
               "DocumentMoniker": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\RoomBoundary.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RoomBoundary.cs",
@@ -139,12 +147,37 @@
               "RelativeToolTip": "Assets\\Scripts\\RoomBoundary.cs",
               "ViewState": "AgIAABAAAAAgnZmZmZkJwCgAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T06:39:19.577Z",
+              "WhenOpened": "2026-03-20T06:39:19.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuButtonScript.cs",
+              "DocumentMoniker": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\MenuButtonScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuButtonScript.cs",
+              "ToolTip": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\MenuButtonScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuButtonScript.cs",
+              "ViewState": "AgIAAAYAAADAMjMzMzMbwFEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:56:36.498Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "MusicManager.cs",
+              "DocumentMoniker": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\MusicManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MusicManager.cs",
+              "ToolTip": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\MusicManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MusicManager.cs",
+              "ViewState": "AgIAAE0AAADAmZmZmZkuwF4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T06:54:04.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "RespawnManager.cs",
               "DocumentMoniker": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\RespawnManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RespawnManager.cs",
@@ -156,19 +189,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MenuButtonScript.cs",
-              "DocumentMoniker": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\MenuButtonScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuButtonScript.cs",
-              "ToolTip": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\MenuButtonScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MenuButtonScript.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAACEvUIAAABQAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "EndLevelScript.cs",
+              "DocumentMoniker": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\EndLevelScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EndLevelScript.cs",
+              "ToolTip": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\EndLevelScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EndLevelScript.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T10:56:36.498Z"
+              "WhenOpened": "2026-03-21T03:36:48.634Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "LevelLoader.cs",
               "DocumentMoniker": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\LevelLoader.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LevelLoader.cs",
@@ -180,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "EndGameCutscene.cs",
               "DocumentMoniker": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\EndGameCutscene.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EndGameCutscene.cs",
