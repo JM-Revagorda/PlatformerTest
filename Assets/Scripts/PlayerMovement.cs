@@ -319,71 +319,9 @@ public class PlayerMovement : MonoBehaviour
 //Very solid Player Controller!
 
 /*
- * Some Tutorial
+ * Problems Encountered here:
+ *      - Platform Velocity still has tendency to launch the player despite moving slowly upwards
  * 
- * How to show in [Inspector]:
- * 1. Simply write down global variables at the top, just like how you would write a class' variables down
- *      public int score = 0
- *          - If you omit the starting assignment, Unity will instead show it as a field in Inspector
- * 
- * void Start()
- *      - runs when the instance has been created, or rather "Instantiated"
- * 
- * void Awake()
- *      - runs at the start of the Scene
- * 
- * void Update()
- *      - runs for every frame per second. Your only way to run what you want to run, other than waiting for something else to interact with
- *      Be careful to not place lots of things as this is always done _every_frame_ (basically less than a second)
- *      
- * void FixedUpdate()
- *      - similar to Update(), but instead runs for every 2 or so frames
- *      
- * OnCollisionEnter(Collider collision)
- *      - runs when something is collided with your object. The "collider" or interactor is the collision variable, which can be used to either 
- *      check if it is indeed a certain object or not, or store the object directly into a certain GameObject variable
- *      - use OnCollisionEnter2D(Collider2D) for 2D games and collisions
- * 
- * OnCollisionExit(Collider collision)
- *      - runs when something that had collided with your object stopped colliding.
- *      - use OnCollisionExit2D(Collider2D collision) likewise
- * 
- * rb.LinearVelocity
- *      - the linear velocity of the object, as a Vector2 type; (x, y)
- *      - to change the linearVelocity, simply do:
- *      
- *              rb.LinearVelocity = new Vector2(*the x you want your object to go*, *the y you want your object to go*);
- *              
- *      - also has interesting variables to interact with alone
- *              - rb.LinearVelocityX = to interact only the horizontal velocity
- *              - rb.LinearVelocityY = to interact only the vertical velocity
- *
- * rb.gravityScale
- *      - sets/gets the gravity Scale of the object in the scene
- *
- * rb.linearDamping
- *      - sets/gets the amount of friction of the object, both in land and in air
- *      
- *      
- *      
- *      
- *      
- *      
- *      
- *      
- *      Snake: Colonel!
- *      Colonel: What is it Snake?
- *      Snake: Ive done a stinky *farts*
- *      Colonel: Huh?!
- *      Snake: Yeah, and a big one proper one *farts harder*
- *      Colonel: What the... Snake!
- *      Snake: *rips the big one out* You hear that Colonel? I've done it again! You know what Im saying man? *giggles*
- *      Colonel: Snake you gotta stop that, or else something...
- *      
- *      Enemy: What was that smell?
- *      Snake: Uh oh... Colonel. I think, *gulps*, I think * G U L P S 2x*, I think they spotted me. I think I gotta hide
- *      Colonel: Ddue! WTF,  GET THE FUCK OUT OF THERE!!!!!
- *      *cue to Enemy Spotting Snake, then Snake dying from the shots*
- *      
- *      G A M E ____ O V E R
+ * What I have tried:
+ *      - Changing Player Collision Detection to Continuous
  */

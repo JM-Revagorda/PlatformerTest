@@ -13,12 +13,11 @@ public class EndLevelScript : MonoBehaviour
     MusicManager mManager;
     void Awake() {
         cutsceneManager = GameObject.Find("CutsceneManager");
-        
         csManager = cutsceneManager.GetComponent<CutsceneManager>();
-        
     }
     void Start()
     {
+        //Gets the Component of BG-music
         musicManager = GameObject.Find("BG-music");
         mManager = musicManager.GetComponent<MusicManager>();
     }
@@ -38,7 +37,8 @@ public class EndLevelScript : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            other.gameObject.GetComponent<PlayerMovement>().enabled = false;
+            // Used to Disable PlayerMovment, effectively preventing the Player from moving when cutscene starts
+            other.gameObject.GetComponent<PlayerMovement>().enabled = false; 
             if (canDoEndScene) {
                 csManager.EndLevelScene();
                 mManager.RunFadeOut();
@@ -48,9 +48,4 @@ public class EndLevelScript : MonoBehaviour
             
         }
     }
-
-    //IEnumerator StopPlayer(string sceneName) {
-    //    yield return new WaitForSeconds(1f);
-    //    SceneManager.LoadScene(sceneName);
-    //}
 }

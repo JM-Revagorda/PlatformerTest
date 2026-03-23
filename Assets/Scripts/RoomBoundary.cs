@@ -13,7 +13,7 @@ public class RoomBoundary : MonoBehaviour
     private void Awake()
     {
         respawnManager = GameObject.FindGameObjectWithTag("RespawnManager");
-        brain = Camera.main.GetComponent<CinemachineBrain>();
+        brain = Camera.main.GetComponent<CinemachineBrain>(); //Gets the Main Camera Object in the Scene
     }
 
     private void OnTriggerEnter2D(UnityEngine.Collider2D collision)

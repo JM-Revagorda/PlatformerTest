@@ -45,6 +45,7 @@ public class WindScript : MonoBehaviour
     {
         if (isPlayerHere)
         {
+            //Loops Basing on the list of Effectors it has and applying it to the Player as External Force
             float speed = stateList[counter].windSpeed;
             float time = stateList[counter].timeUntilNextState;
             switch (stateList[counter].windState)
@@ -55,7 +56,8 @@ public class WindScript : MonoBehaviour
                 case WindForceClass.State.Right: windForce = new Vector2(speed, 0); break;
                 case WindForceClass.State.None: windForce = new Vector2(0, 0); break;
             }
-            playerRB.AddForce(Vector2.ClampMagnitude(windForce, speed * 1.5f));
+            playerRB.AddForce(Vector2.ClampMagnitude(windForce, speed * 1.5f)); 
+            // If Force applied gets too much, clamp it down to a maximum of 1.5 * the speed applied
             counter++;
             if (counter > stateList.Count - 1) counter = 0;
             yield return new WaitForSeconds(time);

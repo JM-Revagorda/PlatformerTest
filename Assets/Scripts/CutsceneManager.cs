@@ -21,10 +21,12 @@ public class CutsceneManager : MonoBehaviour
 
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
+        player = GameObject.FindGameObjectWithTag("Player"); // Finds the Player Object in the Scene by name
         director = GetComponent<PlayableDirector>();
         mainCamera = Camera.main.gameObject;
         camBrain = mainCamera.GetComponent<CinemachineBrain>();
+
+        //If there is a startScene, rebuild the timeline dynamically and play it at the very beginning;
         if (startScene != null)
         {
             director.playableAsset = startScene;
@@ -38,8 +40,9 @@ public class CutsceneManager : MonoBehaviour
         sceneName = scene;
     }
     public void EndLevelScene() {
-        //director = GetComponent<PlayableDirector>();
         director.playableAsset = endScene;
+
+        //Patches out problem if Player dies in the scene by rebuilding it again and binding the Player(Clone) into specific tracks
         foreach (var track in endScene.GetOutputTracks())
         {
             if (track.name == "PlayerPosition" || track.name == "PlayerSprites")
@@ -60,6 +63,7 @@ public class CutsceneManager : MonoBehaviour
     }
     void Update()
     {
+        //Runs when the ending cutscenes are finished playing
         if (endScene != null)
         {
             if (director.playableAsset == endScene && director.state != PlayState.Playing)

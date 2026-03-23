@@ -21,6 +21,7 @@ public class DashPlatformScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Runs if Player Dashes
         if (canMove && playerMove.isDashing) {
             StartCoroutine(Move());
         }
@@ -35,6 +36,7 @@ public class DashPlatformScript : MonoBehaviour
     }
 
     IEnumerator Move() {
+        //Move to Target Point
         Vector2 targetPos = targetPoint.transform.position;
         canMove = false;
         while (Vector3.Distance(transform.position, targetPos) > 0.01f)
@@ -47,6 +49,7 @@ public class DashPlatformScript : MonoBehaviour
 
         yield return new WaitForSeconds(1f);
 
+        //Go back to original position
         while (Vector3.Distance(transform.position, startPos) > 0.01f)
         {
             transform.position = Vector3.MoveTowards(transform.position, startPos, slowSpeed * Time.deltaTime);

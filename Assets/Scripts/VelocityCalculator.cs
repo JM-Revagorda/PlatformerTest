@@ -14,10 +14,12 @@ public class VelocityCalculator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Gets velocity of object by doing this equation, followed by replacing previousPosition into the currentPosition this frame
         _velocity = (transform.position - _previousPosition) / Time.deltaTime;
         _previousPosition = transform.position;
     }
 
+    //Getter
     public Vector2 GetVelocity()
     {
         return _velocity;

@@ -18,6 +18,7 @@ public class SpawnPoint : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
+        //Interesting thing that was never implemented here
         if(collision.gameObject.CompareTag("Player") && !wasEntered)
         {
             wasEntered = true;
