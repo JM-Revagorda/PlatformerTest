@@ -8909,6 +8909,18 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1614567807}
+    - target: {fileID: 3853440905456023616, guid: 829bfcee5325e63498a6487e14dddbe3, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3853440905456023616, guid: 829bfcee5325e63498a6487e14dddbe3, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3870336973170101816, guid: 829bfcee5325e63498a6487e14dddbe3, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1614567807}
     - target: {fileID: 5941841035157787843, guid: 829bfcee5325e63498a6487e14dddbe3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1983.1936
@@ -8952,6 +8964,18 @@ PrefabInstance:
     - target: {fileID: 7913605958563117540, guid: 829bfcee5325e63498a6487e14dddbe3, type: 3}
       propertyPath: m_Name
       value: Screen
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087460578597026404, guid: 829bfcee5325e63498a6487e14dddbe3, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087460578597026404, guid: 829bfcee5325e63498a6487e14dddbe3, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087460578597026404, guid: 829bfcee5325e63498a6487e14dddbe3, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
