@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a65e5c2ca781145a017431692d5472, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
+  dialogue:
+  - "It\u2019s been a while since I came back here.\nStill as cold as ever."
+  - This place used to be more alive.
+  - "And I figured I\u2019d visit you."
+  - 'You said you moved up the mountain.
+
+    Not the easiest place to live.'
+  - "Haven\u2019t heard from you in a long time.\nSo I thought I\u2019d check for
+    myself."
+  - "I\u2019ll pass through the city first\u2026"
+  - then head up the mountain.
+  - "Let\u2019s see how you\u2019re doing."
+  - "I\u2019m coming."
