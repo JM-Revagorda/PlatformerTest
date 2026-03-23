@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\GitHub\\PlatformerTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Documents\\GitHub\\PlatformerTest\\Assets\\Scripts\\LevelLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LevelLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Documents\\GitHub\\PlatformerTest\\Assets\\Scripts\\DialogueUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DialogueUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\admin\\documents\\github\\platformertest\\assets\\scripts\\dialogueui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogueui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\admin\\documents\\github\\platformertest\\assets\\scripts\\levelloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\admin\\documents\\github\\platformertest\\assets\\danni-level1\\scripts\\buttonjuice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\danni-level1\\scripts\\buttonjuice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Documents\\GitHub\\PlatformerTest\\Assets\\Scripts\\DialogueUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DialogueUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,19 +43,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DialogueUI.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\PlatformerTest\\Assets\\Scripts\\DialogueUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueUI.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\PlatformerTest\\Assets\\Scripts\\DialogueUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DialogueUI.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T03:10:39.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "LevelLoader.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\PlatformerTest\\Assets\\Scripts\\LevelLoader.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LevelLoader.cs",
@@ -61,6 +52,31 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T06:45:39.269Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DialogueUI.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\PlatformerTest\\Assets\\Scripts\\DialogueUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueUI.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\PlatformerTest\\Assets\\Scripts\\DialogueUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DialogueUI.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T08:06:48.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DialogueUI.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\PlatformerTest\\Assets\\Scripts\\DialogueUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueUI.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\PlatformerTest\\Assets\\Scripts\\DialogueUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DialogueUI.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T03:10:39.959Z"
             }
           ]
         }
