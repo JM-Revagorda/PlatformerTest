@@ -21,6 +21,7 @@ public class SineMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        //Basic Vertical Sine Movement
         transform.position = new Vector3(initialPosition.x, Mathf.Sin(Time.time * frequency) * magnitude + initialPosition.y, initialPosition.z);
     }
 }

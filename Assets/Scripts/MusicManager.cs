@@ -19,6 +19,8 @@ public class MusicManager : MonoBehaviour
 
     void Awake()
     {
+        //Singleton Pattern
+        //  Basically makes this object persist in all scenes.
         if (instance == null)
         {
             instance = this;
@@ -31,6 +33,8 @@ public class MusicManager : MonoBehaviour
         }
         audioSource = GetComponent<AudioSource>();
         activeScene = SceneManager.GetActiveScene();
+
+        //Runs a custom function everytime SceneManager loads a scene
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
@@ -51,16 +55,13 @@ public class MusicManager : MonoBehaviour
     }
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        AudioClip nextClip = null;
-
-        if (scene.name == "Menu" || scene.name == "Options") nextClip = menuSong;
-        else if (scene.name == "Tutorial") nextClip = tutorialSong;
-        else if (scene.name == "level 1") nextClip = level1Song;
-        else if (scene.name == "level2(final)") nextClip = level2Song;
-        else if (scene.name == "Finale") nextClip = finaleSong;
-
-        // ONLY restart if the song actually needs to change
-        if (audioSource.clip != nextClip)
+        activeScene = SceneManager.GetActiveScene();
+        //Unmutes audio and Puts volume back on if both permanent variables volume and music enabled is greater than 0
+        if (audioSource.mute) audioSource.mute = false;
+        if (audioSource.volume == 0 && PlayerPrefs.GetFloat("Volume") > 0 && PlayerPrefs.GetInt("MusicEnabled") != 0) audioSource.volume = PlayerPrefs.GetFloat("Volume");
+        
+        //Switches Songs for Different Scenes
+        if (scene.name == "Menu" || scene.name == "Options")
         {
             audioSource.clip = nextClip;
             audioSource.Play();
@@ -77,24 +78,17 @@ public class MusicManager : MonoBehaviour
         {
             audioSource.clip = finaleSong;
         }
+        //Plays it
         audioSource.Play();
     }
 
     public void RunFadeOut() {
         StartCoroutine(AudioFadeOut());
     }
-    /*void OnSceneChange(Scene current, Scene next)
-    {
-        StartCoroutine(AudioFadeOut());
-        //Debug.Log("Previous scene: " + activeScene.name + ", New scene: " + next.name);
-        //if ((activeScene.name != "Menu" && next.name != "Options") || (activeScene.name != "Options" && next.name != "Menu"))
-        //{
-        //    StartCoroutine(AudioFadeOut());
-        //}
-    }*/
 
     IEnumerator AudioFadeOut()
     {
+        //Allows for Fading Out by simply reducing volume for every frame until volume hits 0 (idk how the while condition is related tho)
         float volume = audioSource.volume;
         float startTime = Time.realtimeSinceStartup;
         while (Time.realtimeSinceStartup < startTime + duration)
@@ -104,7 +98,7 @@ public class MusicManager : MonoBehaviour
         }
 
         audioSource.volume = 0f; // Ensure volume is exactly zero at the end
-        audioSource.mute = true;
+        audioSource.mute = true; // Simply mutes it
         StopCoroutine(AudioFadeOut());
     }
     

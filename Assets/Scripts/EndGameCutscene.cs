@@ -13,18 +13,7 @@ public class EndGameCutscene : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            csManager.FinalScene();
+            csManager.FinalScene(); //Calls csManager's Final Scene Func
         }
     }
-    //// Start is called once before the first execution of Update after the MonoBehaviour is created
-    //void Start()
-    //{
-        
-    //}
-
-    //// Update is called once per frame
-    //void Update()
-    //{
-        
-    //}
 }
