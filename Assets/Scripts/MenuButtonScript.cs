@@ -18,6 +18,9 @@ public class MenuButtonScript : MonoBehaviour
     [SerializeField] string optionScene = "Options";
     [SerializeField] GameObject levelLoader;
 
+    GameObject musicPlayer;
+    MusicManager musicManager;
+
     private bool isMusicOn = true;
 
     void Start()
@@ -32,6 +35,8 @@ public class MenuButtonScript : MonoBehaviour
         // Load Music state (1 = ON, 0 = OFF)
         isMusicOn = PlayerPrefs.GetInt("MusicEnabled", 1) == 1;
         UpdateMusicUI();
+        musicPlayer = GameObject.Find("BG-music");
+        musicManager = musicPlayer.GetComponent<MusicManager>();
     }
 
     public void OnNameChanged()
@@ -110,7 +115,8 @@ public class MenuButtonScript : MonoBehaviour
 
     public void StartGame()
     {
-        if (levelLoader != null)
+        musicManager.RunFadeOut();
+        if (levelLoader != null) 
             levelLoader.GetComponent<LevelLoader>().LoadNextScene(startGameScene);
         else
             SceneManager.LoadScene(startGameScene);

@@ -68,7 +68,7 @@ public class MusicManager : MonoBehaviour
         {
             audioSource.clip = level1Song;
         }
-        else if (scene.name == "level 2(final)")
+        else if (scene.name == "level2(final)")
         {
             audioSource.clip = level2Song;
         
