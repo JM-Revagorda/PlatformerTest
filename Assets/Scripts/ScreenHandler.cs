@@ -14,8 +14,7 @@ public class ScreenHandler : MonoBehaviour
             {
                 isPaused = true;
                 EnableMainSettings();
-            } else
-            {
+            } else {
                 isPaused = false;
                 DisableMainSettings();
             }
@@ -41,13 +40,13 @@ public class ScreenHandler : MonoBehaviour
     public void EnableMainSettings()
     {
         mainSettings.SetActive(true);
-        gameObject.SetActive(false);
+        //gameObject.SetActive(false);
         PausePhysics();
     }
     public void DisableMainSettings()
     {
         mainSettings.SetActive(false);
-        gameObject.SetActive(true);
+        //gameObject.SetActive(true);
         ResumePhysics();
     }
 }
