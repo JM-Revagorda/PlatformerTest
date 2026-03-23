@@ -11,6 +11,7 @@ public class MenuButtonScript : MonoBehaviour
     public TMP_InputField usernameInput;
     public Slider volumeSlider;
     public TextMeshProUGUI musicButtonText; // Drag the "ON" text here
+    public TextMeshProUGUI displayGreeting; 
 
     [Header("Scene Settings")]
     [SerializeField] string startGameScene;
@@ -33,7 +34,19 @@ public class MenuButtonScript : MonoBehaviour
         UpdateMusicUI();
     }
 
-    // This is the function for your Music Button
+    public void OnNameChanged()
+    {
+        string name = usernameInput.text;
+        if (!string.IsNullOrEmpty(name))
+        {
+            displayGreeting.text = "hI, " + name + "!";
+        }
+        else
+        {
+            displayGreeting.text = "eNTER YOUR NAME BELOW";
+        }
+    }
+
     public void ToggleMusic()
     {
         isMusicOn = !isMusicOn;
