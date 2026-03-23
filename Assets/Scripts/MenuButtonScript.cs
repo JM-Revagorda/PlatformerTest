@@ -86,6 +86,7 @@ public class MenuButtonScript : MonoBehaviour
         {
             MusicManager.instance.RefreshSettings();
         }
+        SceneManager.LoadScene("Menu");
         Debug.Log("Settings Saved!");
     }
 
