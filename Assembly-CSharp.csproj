@@ -54,6 +54,7 @@
     <Compile Include="Assets\Scripts\CutsceneManager.cs" />
     <Compile Include="Assets\danni-level1\assets\scripts\CustomDashPlatform.cs" />
     <Compile Include="Assets\Scripts\ShowBoxColliders.cs" />
+    <Compile Include="Assets\Scripts\DialogueObject.cs" />
     <Compile Include="Assets\Scripts\EndGameCutscene.cs" />
     <Compile Include="Assets\Scripts\MenuButtonScript.cs" />
     <Compile Include="Assets\Scripts\DashPlatformScript.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="Assets\danni-level1\scripts\Custom_SpringBox.cs" />
     <Compile Include="Assets\danni-level1\assets\scripts\CustomSpringBox.cs" />
     <Compile Include="Assets\Scripts\SpikeCollision.cs" />
+    <Compile Include="Assets\Scripts\TypewriterEffect.cs" />
     <Compile Include="Assets\Scripts\SpringBoxScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
@@ -77,6 +79,7 @@
     <Compile Include="Assets\Scripts\DeathStart.cs" />
     <Compile Include="Assets\Scripts\WindScript.cs" />
     <Compile Include="Assets\danni-level1\scripts\ButtonJuice.cs" />
+    <Compile Include="Assets\Scripts\DialogueUI.cs" />
     <Compile Include="Assets\Scripts\TextCurve.cs" />
     <Compile Include="Assets\Scripts\EndLevelScript.cs" />
     <Compile Include="Assets\danni-level1\scripts\LogoFloat.cs" />
