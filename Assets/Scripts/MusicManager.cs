@@ -65,8 +65,19 @@ public class MusicManager : MonoBehaviour
             audioSource.clip = nextClip;
             audioSource.Play();
         }
-
-        RefreshSettings(); // Keep volume/mute settings consistent
+        else if (scene.name == "level 1")
+        {
+            audioSource.clip = level1Song;
+        }
+        else if (scene.name == "level2(final)")
+        {
+            audioSource.clip = level2Song;
+        
+        }else if (scene.name == "Finale")
+        {
+            audioSource.clip = finaleSong;
+        }
+        audioSource.Play();
     }
 
     public void RunFadeOut() {

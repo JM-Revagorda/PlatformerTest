@@ -8025,7 +8025,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7153564504442046678, guid: f67c04c9726dc314e9fdbd00ff736f57, type: 3}
       propertyPath: duration
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7153564504442046678, guid: f67c04c9726dc314e9fdbd00ff736f57, type: 3}
       propertyPath: menuSong
