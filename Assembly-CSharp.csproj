@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\ShowBoxColliders.cs" />
     <Compile Include="Assets\Scripts\DialogueObject.cs" />
     <Compile Include="Assets\Scripts\EndGameCutscene.cs" />
+    <Compile Include="Assets\Scripts\StartDialogueController.cs" />
     <Compile Include="Assets\JohnFarmer\Keyboard Keys &amp; Mouse Sprites\Demo\Scripts\Demo.cs" />
     <Compile Include="Assets\Scripts\MenuButtonScript.cs" />
     <Compile Include="Assets\Scripts\DashPlatformScript.cs" />
