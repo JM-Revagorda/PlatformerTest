@@ -63,8 +63,9 @@ public class MusicManager : MonoBehaviour
         //Switches Songs for Different Scenes
         if (scene.name == "Menu" || scene.name == "Options")
         {
-            audioSource.clip = nextClip;
-            audioSource.Play();
+            audioSource.clip = menuSong;
+            //audioSource.clip = nextClip;
+            //audioSource.Play();
         }
         else if (scene.name == "level 1")
         {
