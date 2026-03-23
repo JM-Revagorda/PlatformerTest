@@ -51,32 +51,22 @@ public class MusicManager : MonoBehaviour
     }
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        activeScene = SceneManager.GetActiveScene();
-        if (audioSource.mute) audioSource.mute = false;
-        if (audioSource.volume == 0 && PlayerPrefs.GetFloat("Volume") > 0) audioSource.volume = PlayerPrefs.GetFloat("Volume");
-        //Debug.Log("Scene " + scene.name + " loaded with mode " + mode);
-        // Check if the loaded scene is a specific scene
-        if (scene.name == "Menu" || scene.name == "Options")
+        AudioClip nextClip = null;
+
+        if (scene.name == "Menu" || scene.name == "Options") nextClip = menuSong;
+        else if (scene.name == "Tutorial") nextClip = tutorialSong;
+        else if (scene.name == "level 1") nextClip = level1Song;
+        else if (scene.name == "level2(final)") nextClip = level2Song;
+        else if (scene.name == "Finale") nextClip = finaleSong;
+
+        // ONLY restart if the song actually needs to change
+        if (audioSource.clip != nextClip)
         {
-            audioSource.clip = menuSong;
-        } 
-        else if (scene.name == "Tutorial")
-        {
-            audioSource.clip = tutorialSong;
+            audioSource.clip = nextClip;
+            audioSource.Play();
         }
-        else if (scene.name == "level 1")
-        {
-            audioSource.clip = level1Song;
-        }
-        else if (scene.name == "level 2(final)")
-        {
-            audioSource.clip = level2Song;
-        
-        }else if (scene.name == "Finale")
-        {
-            audioSource.clip = finaleSong;
-        }
-        audioSource.Play();
+
+        RefreshSettings(); // Keep volume/mute settings consistent
     }
 
     public void RunFadeOut() {
