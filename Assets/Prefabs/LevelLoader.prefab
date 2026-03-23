@@ -122,6 +122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   transition: {fileID: 1795361947885172223}
+  loadingUI: {fileID: 0}
 --- !u!1 &4872757459260156601
 GameObject:
   m_ObjectHideFlags: 0
