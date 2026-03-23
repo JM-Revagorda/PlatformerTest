@@ -75,8 +75,12 @@ public class MenuButtonScript : MonoBehaviour
 
     public void SaveSettings()
     {
+        Scene currentScene = SceneManager.GetActiveScene();
         // Now we commit the changes to disk
-        PlayerPrefs.SetString("Username", usernameInput.text);
+        if (usernameInput != null)
+        {
+            PlayerPrefs.SetString("Username", usernameInput.text);
+        }
         PlayerPrefs.SetFloat("Volume", volumeSlider.value);
         PlayerPrefs.SetInt("MusicEnabled", isMusicOn ? 1 : 0);
         PlayerPrefs.Save();
@@ -86,6 +90,8 @@ public class MenuButtonScript : MonoBehaviour
         {
             MusicManager.instance.RefreshSettings();
         }
+        if(currentScene.name == "Options")
+            SceneManager.LoadScene("Menu");
         Debug.Log("Settings Saved!");
     }
 
