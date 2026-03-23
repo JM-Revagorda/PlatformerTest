@@ -5287,7 +5287,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.5764706, g: 0.4431373, b: 0, a: 1}
@@ -28340,7 +28340,7 @@ PlayableDirector:
   m_GameObject: {fileID: 892877645}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 3e9cabe0d471d7d4da1cd01a43cec7f0, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 141b699d507210b44885487e51ec40d8, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -28366,6 +28366,10 @@ PlayableDirector:
     value: {fileID: 1253002255}
   - key: {fileID: 8902481160144141852, guid: accd62b9c60eaa14fbb8ad261aa9f2d1, type: 2}
     value: {fileID: 1253002253}
+  - key: {fileID: 4066804586305801915, guid: 141b699d507210b44885487e51ec40d8, type: 2}
+    value: {fileID: 1449666692}
+  - key: {fileID: 3193197873363303628, guid: 141b699d507210b44885487e51ec40d8, type: 2}
+    value: {fileID: 1449666692}
   m_ExposedReferences:
     m_References:
     - d0b1b086280dd10499f5cc3f570839ce: {fileID: 88010826}
@@ -28398,7 +28402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c6e09f4db6434143a73292b306cb839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneManager
-  startScene: {fileID: 0}
+  startScene: {fileID: 11400000, guid: 141b699d507210b44885487e51ec40d8, type: 2}
   endScene: {fileID: 0}
   finalScene: {fileID: 11400000, guid: accd62b9c60eaa14fbb8ad261aa9f2d1, type: 2}
   LevelLoader: {fileID: 360011112}
@@ -30766,7 +30770,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.38679248, g: 0.29733023, b: 0, a: 1}
