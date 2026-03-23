@@ -5668,6 +5668,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3635224770020913822, guid: bcf39890db45c0541b8112ce22444c87, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 5865693091982509841, guid: b98957b7e16dd1949b02c87fa834ad49, type: 3}
     - target: {fileID: 4907672157477023421, guid: bcf39890db45c0541b8112ce22444c87, type: 3}
       propertyPath: m_Name
       value: RespawnManager

@@ -59,19 +59,28 @@ public class MusicManager : MonoBehaviour
         if (scene.name == "Menu" || scene.name == "Options")
         {
             audioSource.clip = menuSong;
-        } else if (scene.name == "Tutorial")
+        } 
+        else if (scene.name == "Tutorial")
         {
             audioSource.clip = tutorialSong;
-        }else if (scene.name == "level 1")
+        }
+        else if (scene.name == "level 1")
         {
             audioSource.clip = level1Song;
-        }else if (scene.name == "level 2(final)")
+        }
+        else if (scene.name == "level 2(final)")
         {
             audioSource.clip = level2Song;
+        
         }else if (scene.name == "Finale")
         {
             audioSource.clip = finaleSong;
         }
+        audioSource.Play();
+    }
+
+    public void RunFadeOut() {
+        StartCoroutine(AudioFadeOut());
     }
     /*void OnSceneChange(Scene current, Scene next)
     {
@@ -83,7 +92,7 @@ public class MusicManager : MonoBehaviour
         //}
     }*/
 
-    /*IEnumerator AudioFadeOut()
+    IEnumerator AudioFadeOut()
     {
         float volume = audioSource.volume;
         float startTime = Time.realtimeSinceStartup;
@@ -96,7 +105,7 @@ public class MusicManager : MonoBehaviour
         audioSource.volume = 0f; // Ensure volume is exactly zero at the end
         audioSource.mute = true;
         StopCoroutine(AudioFadeOut());
-    }*/
+    }
     
     void OnDestroy()
     {
