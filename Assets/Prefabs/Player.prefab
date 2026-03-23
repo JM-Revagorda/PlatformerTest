@@ -168,15 +168,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e4b1e62555bcee4f86bc06fa693cd69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  moveSpeed: 2.5
-  jumpHeight: 4.3
+  moveSpeed: 3
+  jumpHeight: 5
   reducedGravityScale: 8.18
   gravityScale: 1
-  dashSpeed: 7.5
+  dashSpeed: 8.6
   decelRate: 3
   coyoteThreshold: 0.3
   wallPoint: {fileID: 7510031355149069298}
-  climbSpeed: 5
+  climbSpeed: 4.3
   stamina: 100
   groundLayer:
     serializedVersion: 2
