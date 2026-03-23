@@ -25323,7 +25323,7 @@ MonoBehaviour:
   dashSpeed: 10
   slowSpeed: 3
   targetPoint: {fileID: 1994929803}
-  player: {fileID: 0}
+  player: {fileID: 3644357643724729024, guid: e7232aceeb871344e82722889dd1d8f2, type: 3}
 --- !u!1001 &1999201777
 PrefabInstance:
   m_ObjectHideFlags: 0
