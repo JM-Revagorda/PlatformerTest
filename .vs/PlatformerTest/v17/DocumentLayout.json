@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Unity Projs\\PlatformerTest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\RoomBoundary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\RoomBoundary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\DashPlatformScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DashPlatformScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\EndGameCutscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EndLevelScript.cs",
               "DocumentMoniker": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\EndLevelScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EndLevelScript.cs",
@@ -66,12 +66,11 @@
               "RelativeToolTip": "Assets\\Scripts\\EndLevelScript.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T03:36:48.634Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T03:36:48.634Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CutsceneManager.cs",
               "DocumentMoniker": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\CutsceneManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CutsceneManager.cs",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "Assets\\Scripts\\CutsceneManager.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAACwAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T03:08:37.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T03:08:37.513Z"
             },
             {
               "$type": "Document",
@@ -96,20 +94,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
               "ToolTip": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAM0AAAAAAAAAAAAAANoAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAL2ZmZmYUwGAAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-20T10:32:40.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DashPlatformScript.cs",
               "DocumentMoniker": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\DashPlatformScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DashPlatformScript.cs",
@@ -117,12 +115,11 @@
               "RelativeToolTip": "Assets\\Scripts\\DashPlatformScript.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAlwCAAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T05:12:24.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T05:12:24.128Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SineMovement.cs",
               "DocumentMoniker": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\SineMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SineMovement.cs",
@@ -130,25 +127,23 @@
               "RelativeToolTip": "Assets\\Scripts\\SineMovement.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T15:53:31.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-20T15:53:31.837Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RoomBoundary.cs",
               "DocumentMoniker": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\RoomBoundary.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RoomBoundary.cs",
               "ToolTip": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\RoomBoundary.cs",
               "RelativeToolTip": "Assets\\Scripts\\RoomBoundary.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABkAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAgnZmZmZkJwCgAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T06:39:19.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-20T06:39:19.577Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "RespawnManager.cs",
               "DocumentMoniker": "D:\\Unity Projs\\PlatformerTest\\Assets\\Scripts\\RespawnManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RespawnManager.cs",
@@ -156,8 +151,7 @@
               "RelativeToolTip": "Assets\\Scripts\\RespawnManager.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T06:45:29.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-20T06:45:29.866Z"
             },
             {
               "$type": "Document",
